@@ -19,31 +19,31 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: 老章的思想实验                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 不止机器学习   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  机器学习算法与Python实战，玩机器学习，但又不止关注机器学习
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://mlpy.info'
 
 github:
-  username: github_username        吗 7条法规       # change to your github username
+  username: tjxj           # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: Changbeihai            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: 章北海的思想实验
   email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/Changbeihai      # change to your twitter homepage
+    - https://github.com/tjxj       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
