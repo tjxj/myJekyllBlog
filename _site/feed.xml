@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-07T16:44:37+08:00</updated>
+  <updated>2023-01-07T17:43:53+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -20,120 +20,19 @@
 
   
   <entry>
-    <title>马化腾对内讲话曝光：都活不下去了，周末还打球</title>
-    <link href="http://localhost:4000/posts/%E5%8C%96%E8%85%BE%E5%86%85%E9%83%A8%E8%AE%B2%E8%AF%9D/" rel="alternate" type="text/html" title="马化腾对内讲话曝光：都活不下去了，周末还打球" />
-    <published>2019-08-08T14:10:00+08:00</published>
+    <title>VSCode+OSS+PicGo+Github+mdnice 搭建完美写作平台</title>
+    <link href="http://localhost:4000/posts/vscode+oss+picgo/" rel="alternate" type="text/html" title="VSCode+OSS+PicGo+Github+mdnice 搭建完美写作平台" />
+    <published>2023-01-07T14:10:00+08:00</published>
   
-    <updated>2019-08-08T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E5%8C%96%E8%85%BE%E5%86%85%E9%83%A8%E8%AE%B2%E8%AF%9D/</id>
-    <content src="http://localhost:4000/posts/%E5%8C%96%E8%85%BE%E5%86%85%E9%83%A8%E8%AE%B2%E8%AF%9D/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="categories" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      大家好，我是科技区博主老章（这才是我的主业）。
-最近阳了，写了几篇关于新冠的文章，比如退烧药问题、新冠的误解、男性健康影响等，还锐评了一波胡锡进。
-
-看到最近消声许久的马化腾的内部讲话，感觉整个互联网和科技界都是有不小影响的。
-
-作为一名科技从业者和科技自媒体创作者，我也斗胆以我的视角胡诌几句点评，也算是给大家不同的思考方向。
-
-降本增效
-
-腾讯这次线上内部员工大会主题是降本增效，看到这个主题就知道腾讯这是要过苦日子的节奏。之前任正非说把“寒气传递给每一个人”是感受到了来自市场环境变化的压力，想调整华为的战略方向。腾讯这一波虽没提及战略，但马老板对各个业务板块的调整/威胁，其实已经有了大调整的意味。不过，现在的经济形势，腾讯聚焦主业，缩减周边业务也是明智之举。
-
-查出大量内部贪腐问题，还牵扯到了部分中干。
-
-没什么好说的，公司大了，利益关系复杂，关键岗位掌握的资源也多，寻租空间也大。...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子</title>
-    <link href="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" rel="alternate" type="text/html" title="刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2019-08-08T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/</id>
-    <content src="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="categories" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      大家好，我是永远讨厌PPT的老章
-
-
-
-放开之后，互联网大佬们也开始出声收拾残局了，前有要砍掉整个腾讯新闻的马化腾，今有怒喷PPT骗人的刘强东。作为东哥粉丝和厌PPT人士，东哥的最新声音，老章也想点评一二。
-
-tips：我前几天点评马化腾内部讲话的文章《马化腾对内讲话曝光：都活不下去了，周末还打球？》，广受好评，阅读8万多了。
-
-
-
-刘强东在近日京东内部管理培训会上痛批部分高管，称“拿PPT和假大空词汇忽悠自己的人就是骗子”，表示部分高管醉心于PPT和奇妙词汇，或吹得天花乱坠但是执行一塌糊涂。他举例说在一次京东零售战略会上：“整个京东零售，只有1.5个人在会上说真话、提问题。0.5是缪钦，1是姚彦中。”
-
-此次会议上，刘强东还表示，管理层不需要那么多花的、新词，要回归到商业本质的五个要素（产品，价格，服务，成本，效率）。
-
-奇妙词汇有多恶心
-
-说PPT恶心之前，先说说奇妙词汇。
-
-很...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>vscode+oss+picgo</title>
-    <link href="http://localhost:4000/posts/vscode+oss+picgo/" rel="alternate" type="text/html" title="vscode+oss+picgo" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2019-08-08T14:10:00+08:00</updated>
+    <updated>2023-01-07T14:10:00+08:00</updated>
   
     <id>http://localhost:4000/posts/vscode+oss+picgo/</id>
     <content src="http://localhost:4000/posts/vscode+oss+picgo/" />
     <author>
-      <name>cotes</name>
+      <name>章北海mlpy</name>
     </author>
 
   
-    
-    <category term="Blogging" />
     
     <category term="Tutorial" />
     
@@ -191,6 +90,105 @@ https://oss.console.aliyun.com/overview
 
 
 搞定之后...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>马化腾对内讲话曝光：都活不下去了，周末还打球</title>
+    <link href="http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/" rel="alternate" type="text/html" title="马化腾对内讲话曝光：都活不下去了，周末还打球" />
+    <published>2023-01-05T14:10:00+08:00</published>
+  
+    <updated>2023-01-05T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/</id>
+    <content src="http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="categories" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      大家好，我是科技区博主老章（这才是我的主业）。
+最近阳了，写了几篇关于新冠的文章，比如退烧药问题、新冠的误解、男性健康影响等，还锐评了一波胡锡进。
+
+看到最近消声许久的马化腾的内部讲话，感觉整个互联网和科技界都是有不小影响的。
+
+作为一名科技从业者和科技自媒体创作者，我也斗胆以我的视角胡诌几句点评，也算是给大家不同的思考方向。
+
+降本增效
+
+腾讯这次线上内部员工大会主题是降本增效，看到这个主题就知道腾讯这是要过苦日子的节奏。之前任正非说把“寒气传递给每一个人”是感受到了来自市场环境变化的压力，想调整华为的战略方向。腾讯这一波虽没提及战略，但马老板对各个业务板块的调整/威胁，其实已经有了大调整的意味。不过，现在的经济形势，腾讯聚焦主业，缩减周边业务也是明智之举。
+
+查出大量内部贪腐问题，还牵扯到了部分中干。
+
+没什么好说的，公司大了，利益关系复杂，关键岗位掌握的资源也多，寻租空间也大。...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子</title>
+    <link href="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" rel="alternate" type="text/html" title="刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子" />
+    <published>2023-01-02T14:10:00+08:00</published>
+  
+    <updated>2023-01-02T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/</id>
+    <content src="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="categories" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      大家好，我是永远讨厌PPT的老章
+
+
+
+放开之后，互联网大佬们也开始出声收拾残局了，前有要砍掉整个腾讯新闻的马化腾，今有怒喷PPT骗人的刘强东。作为东哥粉丝和厌PPT人士，东哥的最新声音，老章也想点评一二。
+
+tips：我前几天点评马化腾内部讲话的文章《马化腾对内讲话曝光：都活不下去了，周末还打球？》，广受好评，阅读8万多了。
+
+
+
+刘强东在近日京东内部管理培训会上痛批部分高管，称“拿PPT和假大空词汇忽悠自己的人就是骗子”，表示部分高管醉心于PPT和奇妙词汇，或吹得天花乱坠但是执行一塌糊涂。他举例说在一次京东零售战略会上：“整个京东零售，只有1.5个人在会上说真话、提问题。0.5是缪钦，1是姚彦中。”
+
+此次会议上，刘强东还表示，管理层不需要那么多花的、新词，要回归到商业本质的五个要素（产品，价格，服务，成本，效率）。
+
+奇妙词汇有多恶心
+
+说PPT恶心之前，先说说奇妙词汇。
+
+很...
     </summary>
   
 

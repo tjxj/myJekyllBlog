@@ -1,9 +1,9 @@
 ---
-title: vscode+oss+picgo
-author: cotes
-date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
+title: VSCode+OSS+PicGo+Github+mdnice 搭建完美写作平台
+author: 章北海mlpy
+date: 2023-01-07 14:10:00 +0800
+categories: [Tutorial]
+tags: [vscode,github]
 render_with_liquid: false
 ---
 
