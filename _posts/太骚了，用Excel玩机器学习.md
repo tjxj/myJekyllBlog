@@ -1,0 +1,80 @@
+最近发现了一个好玩的Python库，它可以将训练好的机器学习模型转换为Java、C、JavaScript、Go、Ruby，VBA 本地代码，可以让连Python和机器学习一无所知的同学也能感受预测的神奇。
+
+先看效果哈
+
+![输入特征数据，点击开始预测，即可输出类别概率](https://my-wechat.oss-cn-beijing.aliyuncs.com/bad22_20220301233407.gif)
+
+其实做这个小东西，感觉还能玩出别的花样，但不清楚到底有什么场景。写这篇文章的时候，我对Excel的 VBA 一无所知，百度了几个用法就开搞了。现在我也能用 VBA 写一些函数和过程了，这也许是最大的收货吧。
+
+## m2cgen
+
+m2cgen（Model 2 Code Generator）是一个轻量级代码生成器，它可以将训练好的机器学习模型转换成无需依赖库的本地代码。
+
+m2cgen目前支持的模型还蛮多的，常用常见的都包括了：
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/m2cgen%20Supported%20Models_20220302095402.png)
+
+## 使用方法
+
+m2cgen的安装非常方便，直接pip：
+
+```
+pip install m2cgen
+```
+
+使用，先用XGBClassifier训练一个模型
+```
+# import packages
+import pandas as pd
+import numpy as np
+import os re
+from random import sample
+from sklearn import datasets
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import pickle
+import m2cgen as m2c
+
+seed = 2020
+test_size = 0.3
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=test_size, random_state=seed)
+# fit model on training data
+model = XGBClassifier()
+model.fit(X_train, y_train)
+```
+将模型转为VBA
+```
+code = m2c.export_to_visual_basic(model, function_name = 'pred')
+```
+>VBA的英文全称是Visual Basic for Applications，是一门标准的宏语言，通常使用来实现Excel中没有提供的功能、编写自定义函数、实现自动化功能等。VBA语言不能单独运行，只能被office软件（如：Word、Excel等）所调用。
+
+生成的VBA长这样：
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/Screen%20Shot%202022-03-02%20at%2010.03.01%20AM_20220302100330.png)
+
+实话实话，我对VBA还是小白，也懒得深究，于是就把代码改成了过程，这里就不贴了，我把改好之后的代码放到了github。有VBA大神可以帮忙，欢迎提交 PR。
+
+>https://github.com/tjxj/excel2ml
+
+想省事的同学直接去copy即可
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/Screen%20Shot%202022-03-02%20at%203.37.29%20PM_20220302153818.png)
+
+## Excel
+点击excel菜单中的【开发工具】（如果没有开发工具选项卡，请参考：excel开发工具选项卡在哪？原来需要自己添加），然后在代码选项卡中点击【Visual Basic】 即可，也可以直接Alt + F11 唤出：
+
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/image_20220302181625.png)
+
+点击插入-模块，把改好的 VBA 代码贴进去即可
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/1646216134(1)_20220302181543.png)
+
+
+保存后退出，然后回到sheet页，开发工具-插入-按钮
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/1646215993(1)_20220302181333.png)
+编辑好文字后，右键指定宏，选中我们刚才保存的那个即可。
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/image_20220302181905.png)
+然后就一切OK了。
+![输入特征数据，点击开始预测，即可输出类别概率](https://my-wechat.oss-cn-beijing.aliyuncs.com/bad22_20220301233407.gif)
+
+The End

@@ -1,0 +1,44 @@
+# AI 拍 MV，宫崎骏风格的《冰雪奇缘》，依然惊悚
+
+省流：不行
+
+昨天，我用 AI 由 MP3 音乐生成 MV，惊悚风也把大家吓住了，
+还没看到的同学可以看看。
+
+然后我还写了一个教程：
+[我用 AI “拍”了个 MV ，被吓尿了](https://mp.weixin.qq.com/s/uXecfT6qPae2CSobTExf4g)
+
+
+
+所以我就想再做一次尝试，看看 `Video Killed The Radio Star` 到底能否生成可以看的视频。
+
+本期选择BGM是冰雪奇缘主题曲《Let it go》,风格就用宫崎骏+久石让，看下效果如何
+
+```
+video_url:https://www.youtube.com/watch?v=L0MK7qz13bU
+
+theme_prompt:by Hayao Miyazaki and Joe Hisaishi ,  so sweet, beautiful, nature, cartoon
+```
+
+我选几张中间过程，能入眼的：
+
+歌词： I am one with the wind and sky Let it go let it go
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/20221019120854.png)
+
+歌词：The snow glows white on the mountain tonight not a footprint to be seen
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/20221019120138.png)
+
+歌词：Let the storm rage on The cold never bothered me anyway
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/20221019121105.png)
+
+
+当然也有离谱的，就很吓人
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/20221019121222.png)
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/20221019121242.png)
+
+最终生成的视频：
+
+没意思，不再玩了。

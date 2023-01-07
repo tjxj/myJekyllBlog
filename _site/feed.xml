@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-07T17:46:06+08:00</updated>
+  <updated>2023-01-07T21:50:03+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,118 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>机器学习入门指南</title>
+    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" rel="alternate" type="text/html" title="机器学习入门指南" />
+    <published>2023-01-07T14:10:00+08:00</published>
+  
+    <updated>2023-01-07T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</id>
+    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      向大家分享我机器学习之路看过的一些书、教程、视频，还有学习经验和建议，希望能对大家的学习有所帮助。
+
+
+
+Python——书
+
+之前跟出版社合作，书柜里积攒了很多Python相关的书，这里推荐三本最有价值的吧。
+
+
+  《流畅的Python》，很厚，比较全面，可以作为工具书常常翻看。
+
+
+
+
+
+  《 从入门到实践（第2版）》 非常全面，对新手还算友好，里面有很多的练习项目非常不错。
+
+
+
+
+
+  《利用Python进行数据分析·第2版》 数据分析入门必读书，主要介绍了python 3个库numpy（数组），pandas（数据分析）和matplotlib（绘图）的学习。有开源版，就不用买了，下载链接及代码如下：
+
+
+
+
+https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version
+
+Pyth...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>我“采访”了 ChatGPT</title>
+    <link href="http://localhost:4000/posts/%E6%88%91%E9%87%87%E8%AE%BF%E4%BA%86-ChatGPT/" rel="alternate" type="text/html" title="我“采访”了 ChatGPT" />
+    <published>2023-01-07T14:10:00+08:00</published>
+  
+    <updated>2023-01-07T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%88%91%E9%87%87%E8%AE%BF%E4%BA%86-ChatGPT/</id>
+    <content src="http://localhost:4000/posts/%E6%88%91%E9%87%87%E8%AE%BF%E4%BA%86-ChatGPT/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      –对 ChatGPT 的焦虑与期待：一篇有思考价值的文章
+
+大家好，我是准备认真码字的老章。
+
+最近ChatGPT火的爆表，看了很多相关文章，特别焦虑，唯恐自己的进步赶不上 AI 的发展。
+
+还有就是我非常看好ChatGPT的未来，围绕它会诞生一个巨大的市场，也会无意摧毁一些市场。消灭你，有你何干，这个世界本来就这么残酷，时代抛弃你的时候,连招呼都不打。
+
+看过《时代》专访ChatGPT的文章，我也有很多疑问渴望得到答案，所以就有了此文。ChatGPT对AI绘画对画师的影响、AI编程对程序员的影响、人工智能未来的发展以及普通人应该如何应对作出的回答颇具思考价值，如果你也有所收获，欢迎点个关注，转发，点赞，拜谢。
+
+PS：ChatGPT的部分回答，内容重复，文字有删减
+
+
+
+老章：你好，我是章北海，是一个机器学习爱好者，同时也在B站上分享机器学习的相关知识。
+
+ChatGPT：你好，章...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -97,21 +209,21 @@ https://oss.console.aliyun.com/overview
 
   
   <entry>
-    <title>马化腾对内讲话曝光：都活不下去了，周末还打球</title>
-    <link href="http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/" rel="alternate" type="text/html" title="马化腾对内讲话曝光：都活不下去了，周末还打球" />
-    <published>2023-01-05T14:10:00+08:00</published>
+    <title>I interviewed ChatGPT</title>
+    <link href="http://localhost:4000/posts/interviewChatGPT/" rel="alternate" type="text/html" title="I interviewed ChatGPT" />
+    <published>2023-01-07T14:10:00+08:00</published>
   
-    <updated>2023-01-05T14:10:00+08:00</updated>
+    <updated>2023-01-07T14:10:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/</id>
-    <content src="http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/" />
+    <id>http://localhost:4000/posts/interviewChatGPT/</id>
+    <content src="http://localhost:4000/posts/interviewChatGPT/" />
     <author>
-      <name>章北海mlpy</name>
+      <name>Lao Zhang</name>
     </author>
 
   
     
-    <category term="互联网呓语" />
+    <category term="English Articles" />
     
   
 
@@ -123,20 +235,11 @@ https://oss.console.aliyun.com/overview
 
 
 
-      大家好，我是科技区博主老章（这才是我的主业）。
-最近阳了，写了几篇关于新冠的文章，比如退烧药问题、新冠的误解、男性健康影响等，还锐评了一波胡锡进。
+      Hello everyone, I am Lao Zhang.
 
-看到最近消声许久的马化腾的内部讲话，感觉整个互联网和科技界都是有不小影响的。
+Recently ChatGPT is on fire, and after reading many related articles, I am especially anxious, lest my progress cannot catch up with the development of AI.
 
-作为一名科技从业者和科技自媒体创作者，我也斗胆以我的视角胡诌几句点评，也算是给大家不同的思考方向。
-
-降本增效
-
-腾讯这次线上内部员工大会主题是降本增效，看到这个主题就知道腾讯这是要过苦日子的节奏。之前任正非说把“寒气传递给每一个人”是感受到了来自市场环境变化的压力，想调整华为的战略方向。腾讯这一波虽没提及战略，但马老板对各个业务板块的调整/威胁，其实已经有了大调整的意味。不过，现在的经济形势，腾讯聚焦主业，缩减周边业务也是明智之举。
-
-查出大量内部贪腐问题，还牵扯到了部分中干。
-
-没什么好说的，公司大了，利益关系复杂，关键岗位掌握的资源也多，寻租空间也大。...
+There is also the fact that I am very optimistic about the future of ChatGPT, around which it will give birth to a huge market, and will also unintentionally destroy some markets. The world is so cruel that ...
     </summary>
   
 
@@ -144,21 +247,21 @@ https://oss.console.aliyun.com/overview
 
   
   <entry>
-    <title>刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子</title>
-    <link href="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" rel="alternate" type="text/html" title="刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子" />
-    <published>2023-01-02T14:10:00+08:00</published>
+    <title>ChatGPT的隐藏彩蛋</title>
+    <link href="http://localhost:4000/posts/ChatGPT%E7%9A%84%E9%9A%90%E8%97%8F%E5%BD%A9%E8%9B%8B/" rel="alternate" type="text/html" title="ChatGPT的隐藏彩蛋" />
+    <published>2023-01-07T14:10:00+08:00</published>
   
-    <updated>2023-01-02T14:10:00+08:00</updated>
+    <updated>2023-01-07T14:10:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/</id>
-    <content src="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" />
+    <id>http://localhost:4000/posts/ChatGPT%E7%9A%84%E9%9A%90%E8%97%8F%E5%BD%A9%E8%9B%8B/</id>
+    <content src="http://localhost:4000/posts/ChatGPT%E7%9A%84%E9%9A%90%E8%97%8F%E5%BD%A9%E8%9B%8B/" />
     <author>
-      <name>章北海mlpy</name>
+      <name>老章mlpy</name>
     </author>
 
   
     
-    <category term="互联网呓语" />
+    <category term="Tutorial" />
     
   
 
@@ -170,25 +273,20 @@ https://oss.console.aliyun.com/overview
 
 
 
-      大家好，我是永远讨厌PPT的老章
+      大家好，最近科技界的顶流非 OpenAI 的 ChatGPT 莫属。
+
+大家都在探索它的使用极限，无论接受以否，未来它都将影响我们的生活。ChatGPT 写故事，编程、解答世间万物、翻译、取标题、写摘要、写对联，你能想到的所有文字内容他都能hold住（虽然也闹了不少笑话）。
+
+昨天我尝试了一个非常有意思的玩法，就是让 ChatGPT 来个角色扮演，然后居然还发现了一个彩蛋，有趣是一方面，由此也可窥见 ChatGPT 之强大。
+
+实现过程如下：
+
+先让他假装成 Linux 终端
+
+我要你假装是一个Linux终端。我会输入命令，你回复终端应该显示什么。我希望你只用一个唯一的代码块里的终端输出回复，别的都不要。不要输出解释。除非我指示你这样做，否则不要输入命令。当我需要用中文告诉你什么时，我会用花括号{像这样}把文本放在里面。我的第一个命令是pwd。
 
 
-
-放开之后，互联网大佬们也开始出声收拾残局了，前有要砍掉整个腾讯新闻的马化腾，今有怒喷PPT骗人的刘强东。作为东哥粉丝和厌PPT人士，东哥的最新声音，老章也想点评一二。
-
-tips：我前几天点评马化腾内部讲话的文章《马化腾对内讲话曝光：都活不下去了，周末还打球？》，广受好评，阅读8万多了。
-
-
-
-刘强东在近日京东内部管理培训会上痛批部分高管，称“拿PPT和假大空词汇忽悠自己的人就是骗子”，表示部分高管醉心于PPT和奇妙词汇，或吹得天花乱坠但是执行一塌糊涂。他举例说在一次京东零售战略会上：“整个京东零售，只有1.5个人在会上说真话、提问题。0.5是缪钦，1是姚彦中。”
-
-此次会议上，刘强东还表示，管理层不需要那么多花的、新词，要回归到商业本质的五个要素（产品，价格，服务，成本，效率）。
-
-奇妙词汇有多恶心
-
-说PPT恶心之前，先说说奇妙词汇。
-
-很...
+然后居然真的可以执行，列出了当前路...
     </summary>
   
 
