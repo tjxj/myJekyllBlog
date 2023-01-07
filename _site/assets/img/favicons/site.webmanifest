@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive, and powerful Jekyll theme for presenting professional writing.",
+  "name": "老章的思想实验",
+  "short_name": "老章的思想实验",
+  "description": "机器学习算法与Python实战，玩机器学习，但又不止关注机器学习",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",
