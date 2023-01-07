@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-07T17:44:24+08:00</updated>
+  <updated>2023-01-07T17:46:06+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -106,12 +106,12 @@ https://oss.console.aliyun.com/overview
     <id>http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/</id>
     <content src="http://localhost:4000/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/" />
     <author>
-      <name>cotes</name>
+      <name>章北海mlpy</name>
     </author>
 
   
     
-    <category term="categories" />
+    <category term="互联网呓语" />
     
   
 
@@ -153,12 +153,12 @@ https://oss.console.aliyun.com/overview
     <id>http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/</id>
     <content src="http://localhost:4000/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/" />
     <author>
-      <name>cotes</name>
+      <name>章北海mlpy</name>
     </author>
 
   
     
-    <category term="categories" />
+    <category term="互联网呓语" />
     
   
 
