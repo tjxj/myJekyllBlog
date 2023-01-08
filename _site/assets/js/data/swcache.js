@@ -46,7 +46,7 @@ const allowedDomains = [
     'localhost:4000',
 
     
-        'chirpy-img.netlify.app',
+        'my-wechat.oss-cn-beijing.aliyuncs.com',
     
 
     'fonts.gstatic.com',
