@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://my-wechat.oss-cn-beijing.aliyuncs.com'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'david-hilbert-2.jpg'
+avatar: '/david-hilbert-2.jpg'
 # boolean type, the global switch for ToC in posts.
 toc: true
 
