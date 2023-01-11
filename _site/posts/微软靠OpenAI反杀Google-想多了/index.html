@@ -23,6 +23,12 @@
 
   
 
+    
+
+    
+
+  
+
   
 
   
@@ -30,24 +36,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.1" />
-<meta property="og:title" content="互联网呓语" />
+<meta property="og:title" content="微软靠OpenAI反杀Google？想多了" />
+<meta name="author" content="章北海mlpy" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="机器学习算法与Python实战，玩机器学习，但又不止关注机器学习" />
-<meta property="og:description" content="机器学习算法与Python实战，玩机器学习，但又不止关注机器学习" />
-<link rel="canonical" href="http://localhost:4000/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%91%93%E8%AF%AD/" />
-<meta property="og:url" content="http://localhost:4000/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%91%93%E8%AF%AD/" />
+<meta name="description" content="大家好，我是老章" />
+<meta property="og:description" content="大家好，我是老章" />
+<link rel="canonical" href="http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/" />
+<meta property="og:url" content="http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/" />
 <meta property="og:site_name" content="老章的思想实验" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-11T10:10:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="互联网呓语" />
+<meta property="twitter:title" content="微软靠OpenAI反杀Google？想多了" />
 <meta name="twitter:site" content="@Changbeihai" />
+<meta name="twitter:creator" content="@章北海mlpy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"机器学习算法与Python实战，玩机器学习，但又不止关注机器学习","headline":"互联网呓语","url":"http://localhost:4000/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%91%93%E8%AF%AD/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"章北海mlpy"},"dateModified":"2023-01-11T10:10:00+08:00","datePublished":"2023-01-11T10:10:00+08:00","description":"大家好，我是老章","headline":"微软靠OpenAI反杀Google？想多了","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/"},"url":"http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>互联网呓语 | 老章的思想实验
+  <title>微软靠OpenAI反杀Google？想多了 | 老章的思想实验
   </title>
 
   <!--
@@ -101,7 +110,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
+  
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -429,19 +443,13 @@
       
 
         
-          <span>
-            <a href="/categories">
-              Categories
-            </a>
-          </span>
-        
 
       
 
         
 
           
-            <span>互联网呓语</span>
+            <span>微软靠OpenAI反杀Google？想多了</span>
           
 
         
@@ -455,7 +463,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      Category
+      Post
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -489,18 +497,85 @@
     
       
       
-        <div id="page-category">
-  <h1 class="pl-lg-2">
-    <i class="far fa-folder-open fa-fw text-muted"></i>
-    互联网呓语
-    <span class="lead text-muted pl-2">4</span>
-  </h1>
+        <!--
+  Refactor the HTML structure.
+-->
 
-  <ul class="post-content pl-0">
-    
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/">微软靠OpenAI反杀Google？想多了</a>
-      <span class="dash flex-grow-1"></span>
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+<!-- images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- Wrap prompt element of blockquote with the <div> tag -->
+
+
+
+
+
+
+
+<!-- return -->
+
+<h1 data-toc-skip>微软靠OpenAI反杀Google？想多了</h1>
+
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      Posted
       <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
@@ -510,80 +585,177 @@
 
 
 
-<span class="text-muted small"
+<em class=""
     data-ts="1673403000"
     data-df="ll"
-    >
+    data-toggle="tooltip" data-placement="bottom">
   Jan 11, 2023
-</span>
+</em>
 
-    </li>
+    </span>
+
+    <!-- lastmod date -->
     
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/%E8%83%86%E6%95%A2%E6%81%B6%E6%84%8F%E6%94%BB%E5%87%BB%E4%B8%93%E5%AE%B6-%E6%B4%BB%E8%AF%A5%E8%A2%AB%E7%A6%81%E8%A8%80/">胆敢恶意攻击专家，活该被禁言</a>
-      <span class="dash flex-grow-1"></span>
+
+  
+
+  <div class="d-flex justify-content-between">
+    <!-- author(s) -->
+    <span>
+      
+
+      By
+
+      <em>
+      
+        
+          <a href=""></a>
+          
+        
+      
+      </em>
+    </span>
+
+    <div>
+      <!-- page views -->
+      
+
+      <!-- read time -->
       <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+<!-- words per minute  -->
 
 
 
 
 
-<span class="text-muted small"
-    data-ts="1673071800"
-    data-df="ll"
-    >
-  Jan  7, 2023
-</span>
-
-    </li>
-    
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/">马化腾对内讲话曝光：都活不下去了，周末还打球</a>
-      <span class="dash flex-grow-1"></span>
-      <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
 
 
 
 
 
-<span class="text-muted small"
-    data-ts="1672899000"
-    data-df="ll"
-    >
-  Jan  5, 2023
-</span>
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom"
+  title="490 words">
+  <em>2 min</em> read</span>
 
-    </li>
-    
-    <li class="d-flex justify-content-between pl-md-3 pr-md-3">
-      <a href="/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/">刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子</a>
-      <span class="dash flex-grow-1"></span>
-      <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+    </div>
 
+  </div> <!-- .d-flex -->
 
+</div> <!-- .post-meta -->
 
+<div class="post-content">
+  <p>大家好，我是老章</p>
 
+<p>斗胆评论一下三个事：</p>
 
-<span class="text-muted small"
-    data-ts="1672639800"
-    data-df="ll"
-    >
-  Jan  2, 2023
-</span>
+<p>一是据 The Information 报道，微软正准备推出新版本必应(Bing）搜索引擎，使用聊天机器人 ChatGPT 背后的人工智能来回答一些搜索查询，具体上线日期可能会在未来几个月。</p>
 
-    </li>
-    
-  </ul>
+<p>二是据知情人士透露，微软马上要给谷歌「双重暴击」了——微软计划在Word、PowerPoint、Outlook等软件中，悉数加入ChatGPT等AI。</p>
+
+<p>三是据国外媒体报道，最近爆火的 AI 聊天机器人 ChatGPT 所有者 OpenAI 在日前传出打算以要约形式出售股票后，昨天微软正在与 OpenAI 就 100 亿美元的入股事宜进行谈判。</p>
+
+<p>背景知识：微软与 OpenAl 的合作始于 2019 年，当时微软宣布了与 OpenAl 的主要合作伙伴关系，其中包括10 亿美元的投资，以换取 OpenAl 技术的独家许可，双方将在 Azure 中建立一个计算平台，可以训练和运行越来越先进的人工智能模型。</p>
+
+<p>微软靠OpenAI蚕食Google部分蛋糕是必然的，尤其是搜索和 Docs，就我用ChatGPT感受，99.9%的人写不好prompt，不知道怎么跟它聊天，最擅长的问题是，你好。</p>
+
+<p>未来ChatGPT收费卖API，必然诞生一系列新应用，就像基于GPT-3 API的Notion AI ，JasperAI做的挺好的。国内选手也在发力，看到一些能用的产品了，由于没有给我广告费，就不提名字了。搜索和文档，各种第三方插件不会只咬bing和word的。</p>
+
+<p>这么看影响，倒是微软和Google可以当难兄难弟，五十步笑百步了。就像未来杀死wps的可能不是Office，而是飞书等产品。</p>
+
 </div>
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    
+      <a href='/categories/%E4%BA%92%E8%81%94%E7%BD%91%E5%91%93%E8%AF%AD/'>互联网呓语</a>
+  </div>
+  
+
+  <!-- tags -->
+  
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw mr-1"></i>
+      
+      <a href="/tags/%E5%BE%AE%E8%BD%AF/"
+          class="post-tag no-text-decoration" >微软</a>
+      
+      <a href="/tags/google/"
+          class="post-tag no-text-decoration" >google</a>
+      
+  </div>
+  
+
+  <div class="post-tail-bottom
+    d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
+    <div class="license-wrapper">
+
+      
+
+        
+
+        This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+
+      
+    </div>
+
+    <!--
+ Post sharing snippet
+-->
+
+<div class="share-wrapper">
+  <span class="share-label text-muted mr-1">Share</span>
+  <span class="share-icons">
+    
+    
+
+    
+      
+        <a href="https://twitter.com/intent/tweet?text=微软靠OpenAI反杀Google？想多了 - 老章的思想实验&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2F%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259D%25A0OpenAI%25E5%258F%258D%25E6%259D%2580Google-%25E6%2583%25B3%25E5%25A4%259A%25E4%25BA%2586%2F" data-toggle="tooltip" data-placement="top"
+          title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fa-fw fab fa-twitter"></i>
+        </a>
+    
+      
+        <a href="https://www.facebook.com/sharer/sharer.php?title=微软靠OpenAI反杀Google？想多了 - 老章的思想实验&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2F%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259D%25A0OpenAI%25E5%258F%258D%25E6%259D%2580Google-%25E6%2583%25B3%25E5%25A4%259A%25E4%25BA%2586%2F" data-toggle="tooltip" data-placement="top"
+          title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fa-fw fab fa-facebook-square"></i>
+        </a>
+    
+      
+        <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2F%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259D%25A0OpenAI%25E5%258F%258D%25E6%259D%2580Google-%25E6%2583%25B3%25E5%25A4%259A%25E4%25BA%2586%2F&text=微软靠OpenAI反杀Google？想多了 - 老章的思想实验" data-toggle="tooltip" data-placement="top"
+          title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
+          <i class="fa-fw fab fa-telegram"></i>
+        </a>
+    
+
+    <i id="copy-link" class="fa-fw fas fa-link small"
+        data-toggle="tooltip" data-placement="top"
+        title="Copy link"
+        data-title-succeed="Link copied successfully!">
+    </i>
+
+  </span>
+</div>
+
+
+  </div><!-- .post-tail-bottom -->
+
+</div><!-- div.post-tail-wrapper -->
+
 
       
     
@@ -1142,11 +1314,505 @@
     </div>
 
     
+      
+      
+
+
+
+
+    
   </div>
 
 </div>
 
 <!-- tail -->
+
+<div class="row">
+  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4 mt-5">
+    
+      
+      <!--
+ Recommend the other 3 posts according to the tags and categories of the current post,
+ if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts  -->
+
+
+<!-- An random integer that bigger than 0  -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy}  -->
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+<!-- Fill with the other newlest posts  -->
+
+
+
+
+
+  <div id="related-posts" class="mb-2 mb-sm-4">
+    <h3 class="pt-2 mb-4 ml-1"
+      data-toc-skip>Further Reading</h3>
+    <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/posts/%E5%88%98%E5%BC%BA%E4%B8%9C/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1672639800"
+    data-df="ll"
+    >
+  Jan  2, 2023
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>刘强东：拿PPT和假大空词汇忽悠自己的人就是骗子</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                大家好，我是永远讨厌PPT的老章
+
+
+
+放开之后，互联网大佬们也开始出声收拾残局了，前有要砍掉整个腾讯新闻的马化腾，今有怒喷PPT骗人的刘强东。作为东哥粉丝和厌PPT人士，东哥的最新声音，老章也想点评一二。
+
+tips：我前几天点评马化腾内部讲话的文章《马化腾对内讲话曝光：都活不下去了，周末还打球？》，广受好评，阅读8万多了。
+
+
+
+刘强东在近日京东内部管理培训会上痛批部分高管，称“拿PPT...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/%E9%A9%AC%E5%8C%96%E8%85%BE%E5%AF%B9%E5%86%85%E8%AE%B2%E8%AF%9D/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1672899000"
+    data-df="ll"
+    >
+  Jan  5, 2023
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>马化腾对内讲话曝光：都活不下去了，周末还打球</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                大家好，我是科技区博主老章（这才是我的主业）。
+最近阳了，写了几篇关于新冠的文章，比如退烧药问题、新冠的误解、男性健康影响等，还锐评了一波胡锡进。
+
+看到最近消声许久的马化腾的内部讲话，感觉整个互联网和科技界都是有不小影响的。
+
+作为一名科技从业者和科技自媒体创作者，我也斗胆以我的视角胡诌几句点评，也算是给大家不同的思考方向。
+
+降本增效
+
+腾讯这次线上内部员工大会主题是降本增效，看到这个主...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/%E8%83%86%E6%95%A2%E6%81%B6%E6%84%8F%E6%94%BB%E5%87%BB%E4%B8%93%E5%AE%B6-%E6%B4%BB%E8%AF%A5%E8%A2%AB%E7%A6%81%E8%A8%80/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1673071800"
+    data-df="ll"
+    >
+  Jan  7, 2023
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>胆敢恶意攻击专家，活该被禁言</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                大家好，我是专家，老章
+
+老章建议：取消89平小三房，大家最好都住大平层、住别墅！
+
+昨天的文章刚发出去，顺便推了一下朋友圈，就有朋友私聊发来一张截图并告诫说：老章，你可悠着点吧
+
+
+
+微博管理员说的真好：真理越辩越明
+
+老章顶多有点小情绪，没有上升到恶语相向、人身攻击，至于引战对立，嗯，也没有。
+
+不过这事真的给我提了个醒，之前各种看不惯，阴阳怪气，被删了很多文章。
+
+
+
+以后要更加小心谨...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+    </div> <!-- .card-deck -->
+  </div> <!-- #related-posts -->
+
+
+    
+      
+      <!--
+  Navigation buttons at the bottom of the post.
+-->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+  <a href="/posts/%E8%83%86%E6%95%A2%E6%81%B6%E6%84%8F%E6%94%BB%E5%87%BB%E4%B8%93%E5%AE%B6-%E6%B4%BB%E8%AF%A5%E8%A2%AB%E7%A6%81%E8%A8%80/" class="btn btn-outline-primary"
+    prompt="Older">
+    <p>胆敢恶意攻击专家，活该被禁言</p>
+  </a>
+  
+
+  
+  <div class="btn btn-outline-primary disabled"
+    prompt="Newer">
+    <p>-</p>
+  </div>
+  
+
+</div>
+
+    
+      
+      <!--  The comments switcher -->
+
+
+    
+  </div>
+</div>
 
 
       </div>
@@ -1764,6 +2430,51 @@ SimpleJekyllSearch({
 <!-- layout specified -->
 
 
+  
+
+
+
+  <!-- image lazy-loading & popup & clipboard -->
+  
+
+  
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
 
 
 
@@ -1827,7 +2538,7 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/misc.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 

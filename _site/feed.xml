@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>老章的思想实验</title>
   <subtitle>机器学习算法与Python实战，玩机器学习，但又不止关注机器学习</subtitle>
-  <updated>2023-01-08T23:14:55+08:00</updated>
+  <updated>2023-01-11T11:06:40+08:00</updated>
   <author>
     <name>章北海的思想实验</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>微软靠OpenAI反杀Google？想多了</title>
+    <link href="http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/" rel="alternate" type="text/html" title="微软靠OpenAI反杀Google？想多了" />
+    <published>2023-01-11T10:10:00+08:00</published>
+  
+    <updated>2023-01-11T10:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/</id>
+    <content src="http://localhost:4000/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/" />
+    <author>
+      <name>章北海mlpy</name>
+    </author>
+
+  
+    
+    <category term="互联网呓语" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      大家好，我是老章
+
+斗胆评论一下三个事：
+
+一是据 The Information 报道，微软正准备推出新版本必应(Bing）搜索引擎，使用聊天机器人 ChatGPT 背后的人工智能来回答一些搜索查询，具体上线日期可能会在未来几个月。
+
+二是据知情人士透露，微软马上要给谷歌「双重暴击」了——微软计划在Word、PowerPoint、Outlook等软件中，悉数加入ChatGPT等AI。
+
+三是据国外媒体报道，最近爆火的 AI 聊天机器人 ChatGPT 所有者 OpenAI 在日前传出打算以要约形式出售股票后，昨天微软正在与 OpenAI 就 100 亿美元的入股事宜进行谈判。
+
+背景知识：微软与 OpenAl 的合作始于 2019 年，当时微软宣布了与 OpenAl 的主要合作伙伴关系，其中包括10 亿美元的投资，以换取 OpenAl 技术的独家许可，双方将在 Azure 中建立一...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -226,56 +270,6 @@ bookdown是著名R包作者谢益辉开发的，支持采用Rmarkdown (R代码�
   静态网站，很容易部署到Internet
   支持LaTeX，可以直接导出tex文档
   导出排版好的PDF文档和...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>浏览器里玩深度学习</title>
-    <link href="http://localhost:4000/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="alternate" type="text/html" title="浏览器里玩深度学习" />
-    <published>2023-01-07T14:10:00+08:00</published>
-  
-    <updated>2023-01-07T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</id>
-    <content src="http://localhost:4000/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="深度学习" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-大家好，我是章北海
-我一直探索更好玩地介绍机器学习，降低学习门槛，用其开发有趣，有价值的应用。之前介绍过很多机器学习应用方面的玩法，比如：gRPC部署训练好的机器学习模型，使用FastAPI构建机器学习API，用streamlit快速生成机器学习web应用  ，在Excel里玩机器学习。←点击直达
-
-最近我在玩 TensorFlow.js ，计划用它整个活儿。本文就是  TensorFlow.js 的极简入门。
-
-TensorFlow.js
-
-TensorFlow.js 是一个开源硬件加速 JavaScript 库，用于训练和部署机器学习模型。它可以让我们直接在浏览器中训练和部署机器学习模型的 JavaScript 库，可以非常灵活地进行 AI 应用的开发:
-
-
-  
-    不需要安装软件或驱动（打开浏览器即可使用）；
-  
-  
-    可以通过浏览器进行更加方便的人机交互；...
     </summary>
   
 
