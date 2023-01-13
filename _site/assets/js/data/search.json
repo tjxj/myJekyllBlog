@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "『机器学习』核心概念的可视化解释",
+    "url": "/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E9%87%8A/",
+    "categories": "机器学习",
+    "tags": "机器学习, 可视化",
+    "date": "2023-01-13 10:10:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "MLU（ Machine Learning University，机器学习大学）是亚马逊的一项教育计划，旨在教授机器学习理论和实际应用。MLU-Explain 作为计划的一部分，通过可视化这种信息丰富且有趣的方式，讲解了机器学习的重要概念。交互页面的设计非常酷！https://mlu-explain.github.io/不过现在涉及的模型不太多，主要有机器学习基本概念（ROC AUC 交叉验...",
+    "content": "MLU（ Machine Learning University，机器学习大学）是亚马逊的一项教育计划，旨在教授机器学习理论和实际应用。MLU-Explain 作为计划的一部分，通过可视化这种信息丰富且有趣的方式，讲解了机器学习的重要概念。交互页面的设计非常酷！https://mlu-explain.github.io/不过现在涉及的模型不太多，主要有机器学习基本概念（ROC AUC 交叉验证 测试/验证/测试集 准确率 召回率等等），还有简单线性回归、逻辑回归、决策树、随机森林等"
+  },
+  
+  {
     "title": "微软靠OpenAI反杀Google？想多了",
     "url": "/posts/%E5%BE%AE%E8%BD%AF%E9%9D%A0OpenAI%E5%8F%8D%E6%9D%80Google-%E6%83%B3%E5%A4%9A%E4%BA%86/",
     "categories": "互联网呓语",

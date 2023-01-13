@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>老章的思想实验</title>
   <subtitle>机器学习算法与Python实战，玩机器学习，但又不止关注机器学习</subtitle>
-  <updated>2023-01-11T11:06:40+08:00</updated>
+  <updated>2023-01-13T10:17:07+08:00</updated>
   <author>
     <name>章北海的思想实验</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,71 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>『机器学习』核心概念的可视化解释</title>
+    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E9%87%8A/" rel="alternate" type="text/html" title="『机器学习』核心概念的可视化解释" />
+    <published>2023-01-13T10:10:00+08:00</published>
+  
+    <updated>2023-01-13T10:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E9%87%8A/</id>
+    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E9%87%8A/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="机器学习" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      MLU（ Machine Learning University，机器学习大学）是亚马逊的一项教育计划，旨在教授机器学习理论和实际应用。MLU-Explain 作为计划的一部分，通过可视化这种信息丰富且有趣的方式，讲解了机器学习的重要概念。交互页面的设计非常酷！
+
+https://mlu-explain.github.io/
+
+不过现在涉及的模型不太多，主要有机器学习基本概念（ROC AUC 交叉验证 测试/验证/测试集 准确率 召回率等等），还有简单线性回归、逻辑回归、决策树、随机森林等
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -224,52 +289,6 @@ pip install m2cgen
 
 
 使用，先用XGBClassifier训...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>干掉 LaTeX ！用BookDown写本书</title>
-    <link href="http://localhost:4000/posts/%E7%94%A8BookDown%E5%86%99%E6%9C%AC%E4%B9%A6/" rel="alternate" type="text/html" title="干掉 LaTeX ！用BookDown写本书" />
-    <published>2023-01-07T14:10:00+08:00</published>
-  
-    <updated>2023-01-07T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E7%94%A8BookDown%E5%86%99%E6%9C%AC%E4%B9%A6/</id>
-    <content src="http://localhost:4000/posts/%E7%94%A8BookDown%E5%86%99%E6%9C%AC%E4%B9%A6/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="R" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      我进军B站了提到我正在做一个很纯净的机器学习的学习网站，技术实现上其实很简单，用了之前我提到过的Bookdown
-干掉 LaTeX ！用BookDown写本书+github.io。还没有完全做好，但是先把过程简单介绍一下，有相同需求的同学可以借鉴。
-
-bookdown
-bookdown是著名R包作者谢益辉开发的，支持采用Rmarkdown (R代码可以运行)或普通markdown编写文档，然后编译成HTML, WORD, PDF, Epub等格式。 bookdown是个素颜版的 LaTeX ，满足了99%的需求，而使用难度大概只有 LaTeX 的1%，性价比极高。
-
-
-  完全开源，向收费说不
-  完全自定义，想干啥就干啥
-  有Rstudio背书，可以大胆的长期使用
-  静态网站，很容易部署到Internet
-  支持LaTeX，可以直接导出tex文档
-  导出排版好的PDF文档和...
     </summary>
   
 
