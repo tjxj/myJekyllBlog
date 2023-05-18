@@ -1,5 +1,5 @@
 ---
-title: 你的JupyterNotebook怎么和我的不一样？
+title: 不一样的JupyterNotebook
 author: 老章mlpy
 date: 2023-01-07 14:10:00 +0800
 categories: [Python]

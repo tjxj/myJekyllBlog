@@ -52,7 +52,7 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: By
+  written_by: By 章北海mlpy
   posted: Posted
   updated: Updated
   words: words
