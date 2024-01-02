@@ -13,13 +13,18 @@
   
 >
 
-  <!--
-  The Head
--->
+  <!-- The Head -->
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+  >
 
   
 
@@ -29,14 +34,14 @@
 
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.1" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="jupyternotebook" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="机器学习算法与Python实战，玩机器学习，但又不止关注机器学习" />
 <meta property="og:description" content="机器学习算法与Python实战，玩机器学习，但又不止关注机器学习" />
 <link rel="canonical" href="http://localhost:4000/tags/jupyternotebook/" />
 <meta property="og:url" content="http://localhost:4000/tags/jupyternotebook/" />
-<meta property="og:site_name" content="老章的思想实验" />
+<meta property="og:site_name" content="玩机器学习的章北海" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="jupyternotebook" />
@@ -47,7 +52,7 @@
 
   
 
-  <title>jupyternotebook | 老章的思想实验
+  <title>jupyternotebook | 玩机器学习的章北海
   </title>
 
   <!--
@@ -62,15 +67,14 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
 <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
 <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="老章的思想实验">
-<meta name="application-name" content="老章的思想实验">
+<meta name="apple-mobile-web-app-title" content="玩机器学习的章北海">
+<meta name="application-name" content="玩机器学习的章北海">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
 
   
-
     
       <link rel="preconnect" href="https://fonts.googleapis.com" >
       <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
@@ -86,7 +90,6 @@
     
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
-
   
 
   <!-- GA -->
@@ -137,13 +140,12 @@
       let self = this;
 
       /* always follow the system prefers */
-      this.sysDarkPrefers.addEventListener("change", () => {
+      this.sysDarkPrefers.addEventListener('change', () => {
         if (self.hasMode) {
           if (self.isDarkMode) {
             if (!self.isSysDarkPrefer) {
               self.setDark();
             }
-
           } else {
             if (self.isSysDarkPrefer) {
               self.setLight();
@@ -154,9 +156,7 @@
         }
 
         self.notify();
-
       });
-
     } /* constructor() */
 
     get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); }
@@ -173,8 +173,7 @@
 
     /* get the current mode on screen */
     get modeStatus() {
-      if (this.isDarkMode
-        || (!this.hasMode && this.isSysDarkPrefer)) {
+      if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
         return ModeToggle.DARK_MODE;
       } else {
         return ModeToggle.LIGHT_MODE;
@@ -204,46 +203,41 @@
       }, "*");
     }
 
+    flipMode() {
+      if (this.hasMode) {
+        if (this.isSysDarkPrefer) {
+          if (this.isLightMode) {
+            this.clearMode();
+          } else {
+            this.setLight();
+          }
+        } else {
+          if (this.isDarkMode) {
+            this.clearMode();
+          } else {
+            this.setDark();
+          }
+        }
+      } else {
+        if (this.isSysDarkPrefer) {
+          this.setLight();
+        } else {
+          this.setDark();
+        }
+      }
+
+      this.notify();
+    } /* flipMode() */
   } /* ModeToggle */
 
-  const toggle = new ModeToggle();
-
-  function flipMode() {
-    if (toggle.hasMode) {
-      if (toggle.isSysDarkPrefer) {
-        if (toggle.isLightMode) {
-          toggle.clearMode();
-        } else {
-          toggle.setLight();
-        }
-
-      } else {
-        if (toggle.isDarkMode) {
-          toggle.clearMode();
-        } else {
-          toggle.setDark();
-        }
-      }
-
-    } else {
-      if (toggle.isSysDarkPrefer) {
-        toggle.setLight();
-      } else {
-        toggle.setDark();
-      }
-    }
-
-    toggle.notify();
-
-  } /* flipMode() */
-
+  const modeToggle = new ModeToggle();
 </script>
 
   
 </head>
 
 
-  <body data-spy="scroll" data-target="#toc" data-topbar-visible="true">
+  <body data-topbar-visible="true">
 
     <!--
   The Side Bar
@@ -261,7 +255,7 @@
     </div>
 
     <div class="site-title">
-      <a href="/">老章的思想实验</a>
+      <a href="/">玩机器学习的章北海</a>
     </div>
     <div class="site-subtitle font-italic">不止机器学习</div>
 
@@ -335,14 +329,16 @@
       
       <a href="https://github.com/tjxj" aria-label="github"
         
+
         
-          
           target="_blank"
+          
         
 
         
 
-        rel="noopener">
+        rel="noopener noreferrer">
+
         <i class="fab fa-github"></i>
       </a>
       
@@ -353,14 +349,16 @@
       
       <a href="https://twitter.com/Changbeihai" aria-label="twitter"
         
+
         
-          
           target="_blank"
+          
         
 
         
 
-        rel="noopener">
+        rel="noopener noreferrer">
+
         <i class="fab fa-twitter"></i>
       </a>
       
@@ -369,14 +367,15 @@
       
 
       
-      <a href="
-          javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')" aria-label="email"
+      <a href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')" aria-label="email"
         
+
         
 
         
 
         >
+
         <i class="fas fa-envelope"></i>
       </a>
       
@@ -387,11 +386,13 @@
       
       <a href="/feed.xml" aria-label="rss"
         
+
         
 
         
 
         >
+
         <i class="fas fa-rss"></i>
       </a>
       
@@ -551,6 +552,11 @@
   <div id="access-lastmod" class="post">
     <div class="panel-heading">Recently Updated</div>
     <ul class="post-content pl-0 pb-1 ml-1 mt-2">
+      
+        
+        
+        
+      <li><a href="/posts/%E4%BD%A0%E7%9A%84JupyterNotebook%E6%80%8E%E4%B9%88%E5%92%8C%E6%88%91%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A0%B7/">不一样的JupyterNotebook</a></li>
       
         
         
@@ -1551,8 +1557,8 @@
     <div class="d-flex justify-content-between align-items-center text-muted ml-md-3 mr-md-3">
       <div class="footer-left">
         <p class="mb-0">
-          © 2023
-          <a href="https://twitter.com/Changbeihai">章北海的思想实验</a>.
+          © 2024
+          <a href="https://twitter.com/Changbeihai">玩机器学习的章北海</a>.
           
           <span data-toggle="tooltip" data-placement="top"
             title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">Some rights reserved.</span>
@@ -1633,12 +1639,9 @@ SimpleJekyllSearch({
 </script>
 
 
-    <!--
-  JS selector for site.
--->
+    <!-- JS selector for site. -->
 
 <!-- layout specified -->
-
 
 
 
@@ -1695,7 +1698,6 @@ SimpleJekyllSearch({
 
 
   <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1.11.6/dayjs.min.js,npm/dayjs@1.11.6/locale/en.min.js,npm/dayjs@1.11.6/plugin/relativeTime.min.js,npm/dayjs@1.11.6/plugin/localizedFormat.min.js"></script>
-
 
 
 
