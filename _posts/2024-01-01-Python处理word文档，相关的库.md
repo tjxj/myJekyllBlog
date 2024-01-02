@@ -1,7 +1,7 @@
 ---
 title: Python处理word文档，相关的库
 author: 老章mlpy
-date: 2024-01-02 14:10:00 +0800
+date: 2024-01-01 14:10:00 +0800
 categories: [Python系列]
 tags: [Python]
 render_with_liquid: false
@@ -77,3 +77,5 @@ pip install python-docx
 ```
 
 请注意，运行这些示例代码之前，你需要确保安装了相应的库。
+
+![](https://my-wechat.oss-cn-beijing.aliyuncs.com/WX20230912-203916-20231217213830903-20231222231724242.png)
