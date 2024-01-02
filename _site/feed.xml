@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>玩机器学习的章北海</title>
   <subtitle>机器学习算法与Python实战，玩机器学习，但又不止关注机器学习</subtitle>
-  <updated>2024-01-02T10:10:34+08:00</updated>
+  <updated>2024-01-02T10:27:34+08:00</updated>
   <author>
     <name>玩机器学习的章北海</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,240 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>机器学习周刊04-动手实战人工智能</title>
+    <link href="http://localhost:4000/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="alternate" type="text/html" title="机器学习周刊04-动手实战人工智能" />
+    <published>2024-01-01T14:10:00+08:00</published>
+  
+    <updated>2024-01-01T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</id>
+    <content src="http://localhost:4000/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="机器学习周刊" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+LLM开发者必读论文：检索增强（RAG）生成技术综述！
+
+目录：
+
+
+  1、动手实战人工智能 Hands-on Al
+  2、huggingface的NLP、深度强化学习、语音课
+  3、Awesome Jupyter
+  4、计算机科学热门论文
+  5、LLM开发者必读论文:检索增强 (RAG) 生成技术综述
+  6、Apple 公布了多模态大型语言模型 Ferret
+  7、免费的基于ChatGPT API的安卓端语音助手
+  8、每日数学
+  9、WhisperLive:接近实时的 Whisper 实现
+  10、Unsloth：大模型训练速度和效率加速工具
+  11、最后推荐三个AI工具
+
+
+1、动手实战人工智能 Hands-on AI
+
+地址：https://ai.huhuhang.com/intro
+
+这个《动手实战人工智能 Hands-on AI》写的相当不错，作...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>机器学习周刊03-如何学习深度学习</title>
+    <link href="http://localhost:4000/posts/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="alternate" type="text/html" title="机器学习周刊03-如何学习深度学习" />
+    <published>2023-12-25T14:10:00+08:00</published>
+  
+    <updated>2023-12-25T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</id>
+    <content src="http://localhost:4000/posts/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="机器学习周刊" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+腾讯推出的 AppAgent，是一个多模态智能体，通过识别当前手机的界面和用户指令直接操作手机界面，能像真实用户一样操作手机！
+
+机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术
+
+本期目录：
+
+  1、如何学习深度学习？
+  2、2024 年学习生成式 AI 路线图
+  3、应用机器学习
+  4、如何构建高效的RAG系统
+  5、MLC Chat
+  6、Ollama
+  7、DreaMoving
+  8、苹果最新论文
+  9、腾讯最新论文：《AppAgent: 多模态智能体，像真实用户一样操作手机》
+
+
+1、如何学习深度学习？
+
+最近X上有推友重提这篇文章，是网友看过 Jeremy 教授的 fast.ai 深度学习课程后，把每节课提到的学习建议和忠告都总结了下来：https://forums.fast.ai/t/things-jeremy-says-to-...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>机器学习周刊02-机器学习应用案例</title>
+    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/" rel="alternate" type="text/html" title="机器学习周刊02-机器学习应用案例" />
+    <published>2023-12-18T14:10:00+08:00</published>
+  
+    <updated>2023-12-18T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/</id>
+    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="机器学习周刊" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+如何像 Netflix、Airbnb 和 Doordash 这样的公司应用机器学习来改进他们的产品和流程？
+
+机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术
+
+本期目录：
+
+
+  1、Python编程挑战
+  2、机器学习应用案例
+  3、Hello 算法
+  4、《理解深度学习》pdf 免费下载
+  5、微软 GitHub Copilot 教程
+
+
+1、Python编程挑战
+
+地址：https://github.com/Asabeneh/30-Days-Of-Python
+30天Python编程挑战是一个逐步学习Python编程语言的指南，虽然命名为30天，但实际可能需要超过100天。你可以根据自己的学习进度来安排。
+
+2、机器学习应用案例
+
+地址：https://www.evidentlyai.com/ml-system-design
+
+
+
+如何像 Ne...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>机器学习周刊01-数据科学资料合集</title>
+    <link href="http://localhost:4000/posts/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E8%B5%84%E6%96%99%E5%90%88%E9%9B%86/" rel="alternate" type="text/html" title="机器学习周刊01-数据科学资料合集" />
+    <published>2023-12-11T14:10:00+08:00</published>
+  
+    <updated>2023-12-11T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E8%B5%84%E6%96%99%E5%90%88%E9%9B%86/</id>
+    <content src="http://localhost:4000/posts/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E8%B5%84%E6%96%99%E5%90%88%E9%9B%86/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="机器学习周刊" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+机器学习工程师面试常见问题的分享,包括来自 Facebook、Amazon、Google 等大公司的面试经历。
+
+机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术
+
+本期目录：
+
+
+  1、超完整数据科学资料合集
+  2、机器学习算法实现的最小和最干净的例子
+  3、机器学习面试
+  4、深度学习论文精读
+  5、微软开源的promptbase
+  6、苹果最新开源的机器学习框架
+  7、Mistralai client-python
+
+
+1、超完整数据科学资料合集
+
+地址：https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials
+
+
+  Python 数据分析和数据科学完整播放列表
+  数据分析和数据科学的完整统计学播放列表
+  数据分析和数据科学的完整 SQL
+  Gi...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -78,213 +312,6 @@ https://mlu-explain.github.io/
 
 
 
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>用Python制作高逼格数学动画manim</title>
-    <link href="http://localhost:4000/posts/%E7%94%A8Python%E5%88%B6%E4%BD%9C%E9%AB%98%E9%80%BC%E6%A0%BC%E6%95%B0%E5%AD%A6%E5%8A%A8%E7%94%BBmanim/" rel="alternate" type="text/html" title="用Python制作高逼格数学动画manim" />
-    <published>2023-01-07T14:10:00+08:00</published>
-  
-    <updated>2023-01-07T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E7%94%A8Python%E5%88%B6%E4%BD%9C%E9%AB%98%E9%80%BC%E6%A0%BC%E6%95%B0%E5%AD%A6%E5%8A%A8%E7%94%BBmanim/</id>
-    <content src="http://localhost:4000/posts/%E7%94%A8Python%E5%88%B6%E4%BD%9C%E9%AB%98%E9%80%BC%E6%A0%BC%E6%95%B0%E5%AD%A6%E5%8A%A8%E7%94%BBmanim/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      简介
-manim是斯坦福大学数学系小哥Grant Sanderson开源的数学仿真模拟python库，并用于YouTube 频道3Blue1Brown，来解说高等数学。
-
-manim是一个非常优秀的数学动画制作引擎，先来两个GIF感受一下 manim 的魅力：
-
-
-
-
-很多同学应该在 B 站看过3b1b的视频，最经典的就是线性代数的本质系列。
-
-
-版本说明
-
-manim 初学者可能会有些许困惑，网上的代码、文档、教程等差异太大，不知道该跟着那个学习。
-
-目前manim有三个版本：
-
-
-
-3b1b 旧版：3blue1brown 自己维护的版本，使用 Cairo 作为后端。
-3b1b 新版：3blue1brown 自己维护的版本，使用 OpenGL 和 moderngl 来进行 GPU 渲染，优点是速度快。
-manim 社区版：manim 旧版的衍生，更新更活跃，有很好的文档和社区支持。...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>太骚了，用Excel玩机器学习</title>
-    <link href="http://localhost:4000/posts/%E7%94%A8Excel%E7%8E%A9%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" rel="alternate" type="text/html" title="太骚了，用Excel玩机器学习" />
-    <published>2023-01-07T14:10:00+08:00</published>
-  
-    <updated>2023-01-07T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E7%94%A8Excel%E7%8E%A9%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</id>
-    <content src="http://localhost:4000/posts/%E7%94%A8Excel%E7%8E%A9%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="机器学习" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      最近发现了一个好玩的Python库，它可以将训练好的机器学习模型转换为Java、C、JavaScript、Go、Ruby，VBA 本地代码，可以让连Python和机器学习一无所知的同学也能感受预测的神奇。
-
-先看效果哈
-
-
-
-其实做这个小东西，感觉还能玩出别的花样，但不清楚到底有什么场景。写这篇文章的时候，我对Excel的 VBA 一无所知，百度了几个用法就开搞了。现在我也能用 VBA 写一些函数和过程了，这也许是最大的收货吧。
-
-m2cgen
-
-m2cgen（Model 2 Code Generator）是一个轻量级代码生成器，它可以将训练好的机器学习模型转换成无需依赖库的本地代码。
-
-m2cgen目前支持的模型还蛮多的，常用常见的都包括了：
-
-
-使用方法
-
-m2cgen的安装非常方便，直接pip：
-
-pip install m2cgen
-
-
-使用，先用XGBClassifier训...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>干掉 LaTeX ！用BookDown写本书</title>
-    <link href="http://localhost:4000/posts/%E7%94%A8BookDown%E5%86%99%E6%9C%AC%E4%B9%A6/" rel="alternate" type="text/html" title="干掉 LaTeX ！用BookDown写本书" />
-    <published>2023-01-07T14:10:00+08:00</published>
-  
-    <updated>2023-01-07T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E7%94%A8BookDown%E5%86%99%E6%9C%AC%E4%B9%A6/</id>
-    <content src="http://localhost:4000/posts/%E7%94%A8BookDown%E5%86%99%E6%9C%AC%E4%B9%A6/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="R" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      我进军B站了提到我正在做一个很纯净的机器学习的学习网站，技术实现上其实很简单，用了之前我提到过的Bookdown
-干掉 LaTeX ！用BookDown写本书+github.io。还没有完全做好，但是先把过程简单介绍一下，有相同需求的同学可以借鉴。
-
-bookdown
-bookdown是著名R包作者谢益辉开发的，支持采用Rmarkdown (R代码可以运行)或普通markdown编写文档，然后编译成HTML, WORD, PDF, Epub等格式。 bookdown是个素颜版的 LaTeX ，满足了99%的需求，而使用难度大概只有 LaTeX 的1%，性价比极高。
-
-
-  完全开源，向收费说不
-  完全自定义，想干啥就干啥
-  有Rstudio背书，可以大胆的长期使用
-  静态网站，很容易部署到Internet
-  支持LaTeX，可以直接导出tex文档
-  导出排版好的PDF文档和...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>浏览器里玩深度学习</title>
-    <link href="http://localhost:4000/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="alternate" type="text/html" title="浏览器里玩深度学习" />
-    <published>2023-01-07T14:10:00+08:00</published>
-  
-    <updated>2023-01-07T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</id>
-    <content src="http://localhost:4000/posts/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E7%8E%A9%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="深度学习" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-大家好，我是章北海
-我一直探索更好玩地介绍机器学习，降低学习门槛，用其开发有趣，有价值的应用。之前介绍过很多机器学习应用方面的玩法，比如：gRPC部署训练好的机器学习模型，使用FastAPI构建机器学习API，用streamlit快速生成机器学习web应用  ，在Excel里玩机器学习。←点击直达
-
-最近我在玩 TensorFlow.js ，计划用它整个活儿。本文就是  TensorFlow.js 的极简入门。
-
-TensorFlow.js
-
-TensorFlow.js 是一个开源硬件加速 JavaScript 库，用于训练和部署机器学习模型。它可以让我们直接在浏览器中训练和部署机器学习模型的 JavaScript 库，可以非常灵活地进行 AI 应用的开发:
-
-
-  
-    不需要安装软件或驱动（打开浏览器即可使用）；
-  
-  
-    可以通过浏览器进行更加方便的人机交互；...
     </summary>
   
 

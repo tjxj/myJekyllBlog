@@ -1,6 +1,74 @@
 [
   
   {
+    "title": "机器学习周刊04-动手实战人工智能",
+    "url": "/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/",
+    "categories": "机器学习周刊",
+    "tags": "机器学习周刊",
+    "date": "2024-01-01 14:10:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "LLM开发者必读论文：检索增强（RAG）生成技术综述！目录：  1、动手实战人工智能 Hands-on Al  2、huggingface的NLP、深度强化学习、语音课  3、Awesome Jupyter  4、计算机科学热门论文  5、LLM开发者必读论文:检索增强 (RAG) 生成技术综述  6、Apple 公布了多模态大型语言模型 Ferret  7、免费的基于ChatGPT API...",
+    "content": "LLM开发者必读论文：检索增强（RAG）生成技术综述！目录：  1、动手实战人工智能 Hands-on Al  2、huggingface的NLP、深度强化学习、语音课  3、Awesome Jupyter  4、计算机科学热门论文  5、LLM开发者必读论文:检索增强 (RAG) 生成技术综述  6、Apple 公布了多模态大型语言模型 Ferret  7、免费的基于ChatGPT API的安卓端语音助手  8、每日数学  9、WhisperLive:接近实时的 Whisper 实现  10、Unsloth：大模型训练速度和效率加速工具  11、最后推荐三个AI工具1、动手实战人工智能 Hands-on AI地址：https://ai.huhuhang.com/intro这个《动手实战人工智能 Hands-on AI》写的相当不错，作者用 Jupyter Notebook编写了这个教程，参考了《机器学习方法》，《深度学习入门》，西瓜书，花花书等，剖析和推导每一个基础算法的原理，将数学过程写出来了，同时基于 Python 代码对公式进行实现，做到公式和代码的一一对应。我把章节简单整理成了这个思维导图，大家可以结合自身情况，挑选感兴趣的章节阅读。2、huggingface的NLP、深度强化学习、语音课地址：https://huggingface.co/learnHuggingFace开放了NLP、深度强化学习、基于transformer的语音框架三门课，看了每一课的结构，比较偏实践，蛮不错的。我最近对语音比较感兴趣，加上正在学点前端，所以就把语音课拿出来，做了个文档型网页，准备一边学，一边翻译。感兴趣的同学可以一起翻译：https://hf-audio.zhanglearning.com/3、Awesome Jupyter地址：https://github.com/markusschanta/awesome-jupyter这个项目收录了精选的Jupyter项目、库和资源列表，已经更新了很多年，我比较喜欢可视化部分，认识了很多好玩的库。4、计算机科学热门论文地址：https://trendingpapers.com/trendingpapers这个网站每日更新计算机科学最新、最火的论文，分门别类，查找起来非常方便。打开感兴趣的论文，可以直接跳转到arxiv查看pdf，也可以点击Find similar找到该方向类似的论文。5、LLM开发者必读论文：检索增强（RAG）生成技术综述论文：https://arxiv.org/abs/2312.10997检索增强利用外部知识库来丰富大语言模型的上下文并生成答案，从而提升了答案的准确度。论文深入探讨并梳理了检索增强型生成（ RAG）技术，非常全面。RAG是LLM领域最火爆的方向了，我在公众号中曾推荐过吴恩达老师最近的一个短课：吴恩达最新短课，构建和评估高级 RAG 应用程序，附中英字幕，感兴趣想要学习RAG，这个短课，建议作为首选。6、 Apple 公布了多模态大型语言模型 Ferret地址：github.com/apple/ml-ferret 苹果最新公布的 Ferret 是一种新的多模态大型语言模型（MLLM)，能够理解图像中任何形状或粒度的空间参考，并准确地理解词汇描述。苹果开源了训练、微调、模型代码和模型权重：https://github.com/apple/ml-ferret/可以下载、安装后一个命令运行gradio前端python -m ferret.serve.gradio_web_server --controller http://localhost:10000 --model-list-mode reload --add_region_feature7、免费的基于ChatGPT API的安卓端语音助手地址：https://github.com/Skythinker616/gpt-assistant-android这个项目是免费的、基于ChatGPT API的安卓端语音助手，可通过音量键唤起并进行语音交流，支持联网、Vision拍照识图、连续对话、提问模板、3.5/4.0接口、Markdown渲染等功能8、每日数学地址：https://www.theoremoftheday.org/这个网站每天更新一个数学定理（或引理、法则、公式或恒等式），每一个都足以装饰数学殿堂的墙壁。每个定理都被设计得尽可能让广大观众能够欣赏，如果某个定理的表述看起来难以理解，可以继续查看附带的图形解释、巧妙的动画。9、WhisperLive：接近实时的 OpenAI Whisper 实现地址：https://github.com/collabora/WhisperLive这个项目是一个实时转录应用程序，它使用 OpenAI Whisper 模型将语音输入（来自麦克风的现场音频输入 or预先录制的音频文件 ）转换为文本输出。10、Unsloth地址：https://github.com/unslothai/unsloth训练大语言模型往往会消耗大量算力和时间，Unsloth开源的这个项目可以加快训练速度和效率。  支持 Llama 7b、13b、70b、CodeLlama 34b、Mistral 7b、TinyLlama 以及所有 Llama 架构！  Llama 7b Colab T4 实例在 1 T4 上比原来快 2 倍，使用的 VRAM 减少了 43%（8.4GB）LAION 数据集。Alpaca T4 实例在 1 T4 上也是快了 2 倍，使用了 6.4GB VRAM。  Mistral 7b Colab A100 实例在 1 A100 上快了 2.2 倍，使用的 VRAM 减少了 62%（12.4GB）。Colab T4 实例  CodeLlama 34b Colab 实例不会出现 OOM，速度提升了 1.9 倍，使用的 VRAM 减少了 32%（27GB）。  Kaggle 上使用 2 Tesla T4 的 Alpaca 训练速度提高了 5.28 倍。Kaggle 实例  所有内核均使用 OpenAI 的 Triton 语言编写。  准确率无损失 - 没有使用近似方法 - 全部精确。  无需更换硬件。支持自 2018 年以来的 NVIDIA GPU。最低 CUDA 计算能力 7.0（V100、T4、Titan V、RTX 20、30、40x、A100、H100、L40 等）检查您的 GPU  在 Linux 和 Windows 通过 WSL 上运行。  实验性支持 DPO（直接偏好优化）！  支持通过 bitsandbytes 进行 4bit 和 16bit QLoRA / LoRA 微调。  开源版本的训练速度提高了 5 倍，或者您可以查看 Unsloth Pro 和 Max 代码路径，以获得高达 30 倍的训练速度提升！11、最后推荐三个AI工具PIA：照片转动漫风格工具，可线上试用地址：https://huggingface.co/spaces/Leoxing/PIA带web界面的声音克隆工具地址：https://github.com/jianchang512/clone-voicecloudflare-ai-web地址：https://github.com/Jazee6/cloudflare-ai-web支持GeminiPro Vision / Cloudflare Workers AI / ChatGPT的融合Web平台"
+  },
+  
+  {
+    "title": "机器学习周刊03-如何学习深度学习",
+    "url": "/posts/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/",
+    "categories": "机器学习周刊",
+    "tags": "机器学习周刊",
+    "date": "2023-12-25 14:10:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "腾讯推出的 AppAgent，是一个多模态智能体，通过识别当前手机的界面和用户指令直接操作手机界面，能像真实用户一样操作手机！机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术本期目录：  1、如何学习深度学习？  2、2024 年学习生成式 AI 路线图  3、应用机器学习  4、如何构建高效的RAG系统  5、MLC Chat  6、Ollama  7、DreaMovi...",
+    "content": "腾讯推出的 AppAgent，是一个多模态智能体，通过识别当前手机的界面和用户指令直接操作手机界面，能像真实用户一样操作手机！机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术本期目录：  1、如何学习深度学习？  2、2024 年学习生成式 AI 路线图  3、应用机器学习  4、如何构建高效的RAG系统  5、MLC Chat  6、Ollama  7、DreaMoving  8、苹果最新论文  9、腾讯最新论文：《AppAgent: 多模态智能体，像真实用户一样操作手机》1、如何学习深度学习？最近X上有推友重提这篇文章，是网友看过 Jeremy 教授的 fast.ai 深度学习课程后，把每节课提到的学习建议和忠告都总结了下来：https://forums.fast.ai/t/things-jeremy-says-to-do/36682/1我让ChatGPT、Claude、Gemini翻译并总结了这篇文章，Gemini完成的更加出色，给出了20条关于学习方法和一些细节的建议（强烈建议，如果时间允许，可以看原文）：  倾听：仔细注意老师在整堂课中的建议和提示。  不要被理论淹没：专注于运行代码并对其进行实验，而不是一开始就陷入理论细节中。  选择一个项目并把它做得精彩：选择一个你感兴趣的项目，并投入额外的精力，确保对其进行优化和改进。  探索不同的数据集：不要局限于课程中提供的数据集；自己寻找数据集并对其进行实验。  不要使你的代码过于复杂：保持你的代码简单和有条理，避免不必要的复杂性。  学习 Jupyter 快捷键：熟悉 Jupyter 快捷键以提高你的效率。  运行代码并对其进行实验：不要只阅读代码；运行它并尝试不同的输入和参数来观察会发生什么。  不要花几个小时试图立即理解所有理论：可以先不理解所有内容；专注于实践方面，并随着时间的推移逐渐加深你的理解。  阅读比赛获胜者的论文：通过阅读比赛获胜者的论文来学习他人的成功经验，注意他们的方法和见解。  使用你拥有的所有文本：在处理 NLP 时，确保使用所有可用的文本，包括未标记的验证集，以增强模型的性能。  学会发音希腊字母：熟悉深度学习论文中常用的希腊字母的发音。  非常习惯 PyTorch 张量：培养对 PyTorch 张量和运算的扎实理解。  应用广播规则：在处理更高秩张量时学习并应用广播规则。  不要假设库是正确的：对库持怀疑态度；验证其正确性并了解其工作原理。  不要担心你是否跟上了所有内容：感到不知所措是正常的；专注于你能理解的内容，并逐渐建立你的知识。  学会调试深度学习代码：调试 DL 代码具有挑战性；确保你的代码简单，并检查中间结果以尽量减少错误。  学习 Swift for TensorFlow：抓住机会学习 Swift for TensorFlow，它为 DL 开发提供了优势。  谨慎的数据增强：在增强数据时，仔细考虑转换及其对数据完整性和标签准确性的影响。  尝试不同的架构：尝试不同的神经网络架构以深入了解它们的性能特征。  尽可能以原始方式预处理数据：作为一般规则，尽量减少对神经网络数据的预处理，以保留其原始信息和结构。2、2024 年学习生成式 AI 路线图项目地址：https://github.com/krishnaik06/Roadmap-To-Learn-Generative-AI-In-2024这个项目总结了生成式AI学习路线，从Python、机器学习、NLP、深度学习、GPT-4、Langchain、向量数据库、LLM项目部署，非常顺畅。3、应用机器学习地址：https://github.com/eugeneyan/applied-ml这个项目分享了各公司在生产中数据科学和机器学习方面的论文和技术博客，已经更新了3年。主要内容包括：  如何构架问题 🔎（例如，将个性化视为推荐系统 vs. 搜索 vs. 序列）  哪些机器学习技术有效 ✅（有时候，哪些不行 ❌）  为什么它有效，背后的科学原理包括研究、文献和引用 📂  实现了什么现实世界的结果（可以更好地评估投资回报率 ⏰💰📈）4、如何构建高效的RAG系统程序员Jiayuan (Forrest)在X上分享了开发者搜索工具 devv.ai 是如何构建RAG系统的过程，内容十分硬核。这里是Treads汇总：https://typefully.com/Tisoga/PBB58Vu5、MLC ChatMLC Chat：在iPhone上离线运行7B最强LLM Mistral中文不太行，速度很快，手机会发热APP下载：https://apps.apple.com/gb/app/mlc-chat/id6448482937。Github：https://github.com/mlc-ai/mlc-llm支持各种系统，能在各种设备上开发、优化和部署AI模型。包括iOS和安卓6、Ollama地址：https://ollama.ai/downloadOllama为那些在macOS、Linux（暂不支持Windows）上使用LLM的开发者提供了一种简便的解决方案，可以更轻松地将这些模型集成到自己的应用程序中。Ollama目前支持了10余种大模型，安装后均可一个命令本地启动并运行            Model      Parameters      Size      Download                  Neural Chat      7B      4.1GB      ollama run neural-chat              Starling      7B      4.1GB      ollama run starling-lm              Mistral      7B      4.1GB      ollama run mistral              Llama 2      7B      3.8GB      ollama run llama2              Code Llama      7B      3.8GB      ollama run codellama              Llama 2 Uncensored      7B      3.8GB      ollama run llama2-uncensored              Llama 2 13B      13B      7.3GB      ollama run llama2:13b              Llama 2 70B      70B      39GB      ollama run llama2:70b              Orca Mini      3B      1.9GB      ollama run orca-mini              Vicuna      7B      3.8GB      ollama run vicuna              LLaVA      7B      4.5GB      ollama run llava      7、DreaMovingDreaMoving是一个基于扩散模型的人类舞蹈视频生成框架。能够根据指导序列和简单的内容描述（仅文本提示、仅图像提示或文本和图像提示）生成高质量、高保真度的视频。体验地址：https://modelscope.cn/studios/vigen/video_generation/summary8、苹果最新论文论文: https://huggingface.co/papers/2312.11514苹果发的这个论文《使用有限的内存实现更快的 LLM 推理》。通过将将模型参数保存在闪存里，根据需要移动到DRAM。 使得能够运行的模型大小是可用DRAM的两倍，与传统的CPU和GPU加载方法相比，推理速度分别提高了4-5倍和20-25倍。9、腾讯最新论文：《AppAgent: 多模态智能体，像真实用户一样操作手机》项目首页：https://appagent-official.github.io论文链接：https://arxiv.org/abs/2312.13771项目地址：https://github.com/mnotgod96/AppAgent论文通过引入一种基于大型语言模型（LLMs）的多模态智能代理（Agent）框架，赋予了智能体操作智能手机应用的能力。与传统的智能助手如 Siri 不同，AppAgent 不依赖于系统后端访问，而是通过模拟人类的点击和滑动等操作，直接与手机应用的图形用户界面（GUI）互动。这种独特的方法不仅提高了安全性和隐私性，还确保了智能体能够适应应用界面的变化和更新。"
+  },
+  
+  {
+    "title": "机器学习周刊02-机器学习应用案例",
+    "url": "/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/",
+    "categories": "机器学习周刊",
+    "tags": "机器学习周刊",
+    "date": "2023-12-18 14:10:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "如何像 Netflix、Airbnb 和 Doordash 这样的公司应用机器学习来改进他们的产品和流程？机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术本期目录：  1、Python编程挑战  2、机器学习应用案例  3、Hello 算法  4、《理解深度学习》pdf 免费下载  5、微软 GitHub Copilot 教程1、Python编程挑战地址：https://...",
+    "content": "如何像 Netflix、Airbnb 和 Doordash 这样的公司应用机器学习来改进他们的产品和流程？机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术本期目录：  1、Python编程挑战  2、机器学习应用案例  3、Hello 算法  4、《理解深度学习》pdf 免费下载  5、微软 GitHub Copilot 教程1、Python编程挑战地址：https://github.com/Asabeneh/30-Days-Of-Python30天Python编程挑战是一个逐步学习Python编程语言的指南，虽然命名为30天，但实际可能需要超过100天。你可以根据自己的学习进度来安排。2、机器学习应用案例地址：https://www.evidentlyai.com/ml-system-design如何像 Netflix、Airbnb 和 Doordash 这样的公司应用机器学习来改进他们的产品和流程？evidently整理了一个包含 80 多家公司的 300 个案例研究的数据库，分享了从设计机器学习系统中获得的实用机器学习应用案例和经验。可以通过行业或机器学习应用场景对这些案例研究进行筛选：  不同数据类型的机器学习系统，比如计算机视觉（CV）或自然语言处理（NLP）。  针对特定场景的机器学习系统，最流行的包括推荐系统、搜索排序和欺诈检测。  其中还特别标出了那些利用机器学习为用户直接提供“产品功能”的案例，比如从语法纠错到搭配服装的创意。这也网站看着眼熟吗？前几天我介绍过他家的库：一个神奇的Python库：Evidently，机器学习必备3、Hello 算法地址：https://github.com/krahets/hello-algo《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Java, C++, Python, Go, JS, TS, C#, Swift, Rust, Dart, Zig 等语言。本项目旨在打造一本开源免费、新手友好的数据结构与算法入门教程。  全书采用动画图解，内容清晰易懂、学习曲线平滑，引导初学者探索数据结构与算法的知识地图。  源代码可一键运行，帮助读者在练习中提升编程技能，了解算法工作原理和数据结构底层实现。  鼓励读者互助学习，提问与评论通常可在两日内得到回复。 对Python感兴趣的话，直接移步这里：https://github.com/krahets/hello-algo/tree/main/codes/python4、《理解深度学习》pdf 免费下载目录：第1章 - 引言第2章 - 监督学习第3章 - 浅层神经网络第4章 - 深度神经网络第5章 - 损失函数第6章 - 训练模型第7章 - 梯度和初始化第8章 - 性能评估 第9章 - 正则化第10章 - 卷积网络第11章 - 残差网络第12章 - 变换器（Transformers）第13章 - 图神经网络第14章 - 无监督学习第15章 - 生成对抗网络第16章 - 正规化流第17章 - 变分自编码器第18章 - 扩散模型第19章 - 深度强化学习第20章 - 深度学习为什么有效？第21章 - 深度学习与伦理学下载地址：https://udlbook.github.io/udlbook/这里不但有本书的pdf下载，还有每一章节的习题ipynb代码5、微软 GitHub Copilot 教程地址：https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming微软出的 GitHub Copilot 教程，只有 6 堂课，会教你如何有效利用 GitHub Copilot 以及与 AI 结对编程。 课程一共 10 小时，可以体验如何通过 VSCode 和 GitHub Copilot Chat 进行实时协作，学习如何使用 GitHub Copilot 自动补全代码，处理错误和写单元测试，尽可能教会你使用 GitHub Copilot 的最佳实践，让你可以提升写代码的效率和质量。            课程链接      教授的概念      学习目标                  01      GitHub入门      在不到一小时内开始使用GitHub。              02      GitHub Codespaces入门      使用GitHub Codespaces和Visual Studio Code开发代码！              03      GitHub Copilot入门      GitHub Copilot能通过在VS Code和Codespaces中提供类似自动完成的建议来帮助你编码。              04      用JavaScript驾驭GitHub Copilot      使用GitHub Copilot这个提供类似自动完成建议的AI编程助手来编写JavaScript代码。              05      用Python驾驭GitHub Copilot      使用GitHub Copilot这个提供类似自动完成建议的AI编程助手来编写Python代码。              06      用GitHub Copilot创建迷你游戏      利用GitHub Copilot协助你构建一个基于Python的迷你游戏。      "
+  },
+  
+  {
+    "title": "机器学习周刊01-数据科学资料合集",
+    "url": "/posts/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E8%B5%84%E6%96%99%E5%90%88%E9%9B%86/",
+    "categories": "机器学习周刊",
+    "tags": "机器学习周刊",
+    "date": "2023-12-11 14:10:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "机器学习工程师面试常见问题的分享,包括来自 Facebook、Amazon、Google 等大公司的面试经历。机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术本期目录：  1、超完整数据科学资料合集  2、机器学习算法实现的最小和最干净的例子  3、机器学习面试  4、深度学习论文精读  5、微软开源的promptbase  6、苹果最新开源的机器学习框架  7、Mist...",
+    "content": "机器学习工程师面试常见问题的分享,包括来自 Facebook、Amazon、Google 等大公司的面试经历。机器学习周刊：关注Python、机器学习、深度学习、大模型等硬核技术本期目录：  1、超完整数据科学资料合集  2、机器学习算法实现的最小和最干净的例子  3、机器学习面试  4、深度学习论文精读  5、微软开源的promptbase  6、苹果最新开源的机器学习框架  7、Mistralai client-python1、超完整数据科学资料合集地址：https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials  Python 数据分析和数据科学完整播放列表  数据分析和数据科学的完整统计学播放列表  数据分析和数据科学的完整 SQL  Git 和 Github 教程  探索性数据分析、特征工程和特征选择  机器学习播放列表  深度学习和自然语言处理完整播放列表  生产部署的重要框架  完整的 AWS Sagemaker 和 Sagemaker Studio 工具  完整的 MLOPS 教程  使用开源工具的端到端机器学习、深度学习和自然语言处理项目,直到部署  生成式 AI 和 Open AI 播放列表  PySpark 完整教程  完整的数据科学、机器学习和深度学习面试题2、机器学习算法实现的最小和最干净的例子地址：https://github.com/rushter/MLAlgorithms这个项目有点老，但是知识不老。主要面向希望学习机器学习算法内部原理,或者从零开始自己实现机器学习算法的人群。相比于高效优化的现成机器学习库,这个项目中的代码更容易理解和操作。所有的算法都是用 Python 实现的,利用了 numpy、scipy 和 autograd 这些库。已经实现的算法包括:  深度学习(多层感知器、卷积神经网络、递归神经网络、长短期记忆网络)  线性回归、逻辑回归  随机森林  支持向量机(线性核、多项式核、RBF 核)  K均值聚类  高斯混合模型  K近邻  朴素贝叶斯  主成分分析(PCA)  因子分解机  受限玻尔兹曼机(RBM)  t分布随机嵌入(t-SNE)  梯度提升决策树(也称为 GBDT、GBRT、GBM、XGBoost)  强化学习(深度 Q 学习)3、机器学习面试地址：https://github.com/khangich/machine-learning-interview包含了机器学习工程师面试常见问题的分享,包括来自 Facebook、Amazon、Google 等大公司的面试经历。作者 Pham An Khang 通过收集整理不同公司的面试题,并分享自己以及朋友的面试准备经验,帮助读者为机器学习岗位面试做准备。4、深度学习论文精读地址：https://github.com/mli/paper-reading?tab=readme-ov-file5、微软开源的promptbase地址：https://github.com/microsoft/promptbasepromptbase 微软开源的一系列资源、最佳实践和示例脚本,用于从 GPT-4 等基础模型中激发出最佳性能。号称：All things prompt engineering（关于提示工程的一切）6、苹果最新开源的机器学习框架地址：https://github.com/ml-explore/mlx熟悉的 API:MLX 具有一个紧随 NumPy 的 Python API。MLX 还有一个功能齐全的 C++ API,与 Python API 密切相关。MLX 具有更高级的包,如 mlx.nn 和 mlx.optimizers,其 API 紧随 PyTorch,以简化构建更复杂的模型。苹果同时还公布了mlx应用示例：https://github.com/ml-explore/mlx-examples示例包括：  Transformer 语言模型训练  使用 LLaMA 或 Mistral进行大规模文本生成  混合专家(MoE)语言模型与 Mixtral 8x7B  使用 LoRA进行参数高效微调。  使用 Stable Diffusion 生成图像。  使用 OpenAI 的 Whisper进行语音识别。  使用 BERT进行双向语言理解  在图结构数据上使用 GCN进行半监督学习7、Mistralai client-python地址：https://github.com/mistralai/client-pythonMistral AI 发布的，最近风头最盛的大模型`Mixtral 8x7B，这个库是Mistral AI官方开源的Python客户端，可以直接调用Mistral AI API"
+  },
+  
+  {
     "title": "『机器学习』核心概念的可视化解释",
     "url": "/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E9%87%8A/",
     "categories": "机器学习",
@@ -290,7 +358,7 @@
   },
   
   {
-    "title": "AI 拍 MV，宫崎骏风格的《冰雪奇缘》，依然惊悚",
+    "title": "Ai 拍 mv依然惊悚",
     "url": "/posts/AI-%E6%8B%8D-MV%E4%BE%9D%E7%84%B6%E6%83%8A%E6%82%9A/",
     "categories": "AIGC",
     "tags": "aigc",
