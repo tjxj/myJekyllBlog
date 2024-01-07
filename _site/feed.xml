@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>玩机器学习的章北海</title>
   <subtitle>机器学习算法与Python实战，玩机器学习，但又不止关注机器学习</subtitle>
-  <updated>2024-01-02T13:26:37+08:00</updated>
+  <updated>2024-01-07T11:03:01+08:00</updated>
   <author>
     <name>玩机器学习的章北海</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,116 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>机器学习周刊05-看见统计看见概率</title>
+    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/" rel="alternate" type="text/html" title="机器学习周刊05-看见统计看见概率" />
+    <published>2024-01-07T10:10:00+08:00</published>
+  
+    <updated>2024-01-07T10:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/</id>
+    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="机器学习周刊" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+这个网站用可视化的方式讲解概率和统计基础知识，很多内容还是可交互的，非常生动形象。
+
+大家好，欢迎收看第五期机器学习周刊
+
+本期介绍7个内容，涉及Python、概率统计、机器学习、大模型等,目录如下：
+
+
+  一个离谱的Python库
+  看见概率，看见统计
+  2024机器学习最强文档
+  Gradio
+  顶级程序员如何使用LLM
+  TinyLlama
+  微软宣布利用大型语言模型改进文本嵌入
+
+
+1、一个离谱的Python库
+
+地址：https://www.visidata.org/docs/
+
+
+  pip3 install visidata
+
+
+VisiData是一款免费的开源工具，可让您在计算机终端中快速打开、探索、汇总和分析数据集。VisiData 可处理 CSV 文件、Excel 电子表格、SQL 数据库和许多其他数据源。
+
+界面如下所示：
+
+
+
+甚至还能在命令...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>【翻译】Redis之父最新文章《2024年初的LLMs与编程》</title>
+    <link href="http://localhost:4000/posts/2024%E5%B9%B4%E5%88%9D%E7%9A%84LLMs%E4%B8%8E%E7%BC%96%E7%A8%8B/" rel="alternate" type="text/html" title="【翻译】Redis之父最新文章《2024年初的LLMs与编程》" />
+    <published>2024-01-03T14:10:00+08:00</published>
+  
+    <updated>2024-01-03T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/2024%E5%B9%B4%E5%88%9D%E7%9A%84LLMs%E4%B8%8E%E7%BC%96%E7%A8%8B/</id>
+    <content src="http://localhost:4000/posts/2024%E5%B9%B4%E5%88%9D%E7%9A%84LLMs%E4%B8%8E%E7%BC%96%E7%A8%8B/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="翻译" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      英文原文：http://antirez.com/news/140
+
+Redis 之父的最新文章，非常详细地分享他在工作中使用 LLM 编程的体验，我们可以通过此文一窥超级大佬是如何使用大模型的。
+
+这篇文章很我让ChatGPT提取了摘要：
+
+
+  在2023年，人工智能尤其是可以在设备上本地使用的LLMs取得了显著的进步。作者广泛利用这项技术来加速他的编程能力。
+  起初，作者主要使用LLMs来处理文档和避免在编程中的无聊/不感兴趣的部分。然而，随着时间的推移，他学会了何时使用LLMs最有帮助，以及何时它们可能会减慢他的速度。
+  LLMs在推理和插值方面的能力有限，它们不能超越它们被训练的内容。虽然它们不能替代人类程序员，但如果适当使用，它们可以是有用的辅助工具。
+  作者提供了几个例子，展示了LLMs如何帮助他更快地编写代码，例如在框架之间切换、用一种不熟悉的语言编程，或分析他不...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -185,121 +295,6 @@ doc = Document()
 
 # 向文档添加一个段落
 doc.add_paragraph('Hello, this is a ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python 处理音频，两个重要的库</title>
-    <link href="http://localhost:4000/posts/Python%E4%B8%AD%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86%E5%BA%93/" rel="alternate" type="text/html" title="Python 处理音频，两个重要的库" />
-    <published>2024-01-01T14:10:00+08:00</published>
-  
-    <updated>2024-01-01T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Python%E4%B8%AD%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86%E5%BA%93/</id>
-    <content src="http://localhost:4000/posts/Python%E4%B8%AD%E9%9F%B3%E9%A2%91%E5%A4%84%E7%90%86%E5%BA%93/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="Python系列" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      pyaudio和sounddevice都是用于Python中音频处理和流的库，允许用户通过他们的API录制、播放和处理音频数据。下面是对这两个库的简要介绍：
-
-PyAudio
-
-PyAudio 提供了 Python 绑定到 PortAudio，这是一个跨平台的音频I/O库。它允许你很容易地使用Python语言进行音频录制和播放。
-
-特点:
-
-
-  跨平台（工作在Unix/Linux、MacOS和Windows上）
-  允许你直接访问声卡或其他音频接口，例如通过麦克风录制声音或者向扬声器输出声音
-  支持阻塞和非阻塞流
-  提供了详细的错误信息和音频流状态
-
-
-典型用途:
-
-
-  音频录制和播放
-  音频信号处理
-  实现音频应用，如语音识别和合成
-
-
-示例代码:
-
-import pyaudio
-import wave
-
-# 打开WAV文件
-wf = wave.open('file.w...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python 处理纯文本，12个常用的库</title>
-    <link href="http://localhost:4000/posts/Python%E4%B8%AD%E7%BA%AF%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/" rel="alternate" type="text/html" title="Python 处理纯文本，12个常用的库" />
-    <published>2024-01-01T14:10:00+08:00</published>
-  
-    <updated>2024-01-01T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Python%E4%B8%AD%E7%BA%AF%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/</id>
-    <content src="http://localhost:4000/posts/Python%E4%B8%AD%E7%BA%AF%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="Python系列" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Python 提供了多种库来处理纯文本数据，这些库可以应对从基本文本操作到复杂文本分析的各种需求。以下是一些常用的纯文本处理相关的库：
-
-
-  str 类型: Python 内建的字符串类型提供了许多简便的方法来进行基础文本处理，如分割、连接、替换文本等。
-
-
-# 分割字符串
-text = "hello, world"
-print(text.split(","))  # 输出：['hello', ' world']
-
-# 连接字符串
-words = ["Python", "is", "awesome"]
-print(" ".join(words))  # 输出：Python is awesome
-
-# 替换字符串中的子字符串
-text = "Hello World"
-print(text.replace("World", "Python"))  # 输出：Hello Python
-
-...
     </summary>
   
 
