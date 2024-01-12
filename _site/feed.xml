@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>玩机器学习的章北海</title>
   <subtitle>机器学习算法与Python实战，玩机器学习，但又不止关注机器学习</subtitle>
-  <updated>2024-01-07T11:03:01+08:00</updated>
+  <updated>2024-01-13T01:22:55+08:00</updated>
   <author>
     <name>玩机器学习的章北海</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>亚马逊云注册及Bedrock开发教程</title>
+    <link href="http://localhost:4000/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/" rel="alternate" type="text/html" title="亚马逊云注册及Bedrock开发教程" />
+    <published>2024-01-12T14:10:00+08:00</published>
+  
+    <updated>2024-01-12T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/</id>
+    <content src="http://localhost:4000/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/" />
+    <author>
+      <name>老章mlpy</name>
+    </author>
+
+  
+    
+    <category term="AIGC" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      BedRock 本地开发环境搭建
+
+亚马逊云的Bedrock（https://aws.amazon.com/cn/bedrock/）是一个用于聊天、文本和图像的生成人工智能工具包， 它可以访问 AI21 (Jurassic-2)、Anthropic (Claude)、Stability AI (Stable Diffusion) 和 Amazon (Titan) 等基础模型。
+
+Amazon Bedrock 是一项全托管服务，提供了一系列高性能的基础模型，这些模型来自 AI21 Labs、Anthropic、Cohere、Meta、Stability AI 以及 Amazon 等领先 AI 企业，通过统一的 API 提供服务。此外，Amazon Bedrock 还包括了一整套功能，这些功能旨在构建具备安全性、隐私保护以及负责任的 AI 特色的生成式 AI应用程序。
+
+借助 Amazo...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -243,58 +283,6 @@ filtered_df = df[df['Speed'] &amp;gt; 10]
 
 # 将更改后的DataFrame保存到新的CSV文件
 filtere...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python处理word文档，相关的库</title>
-    <link href="http://localhost:4000/posts/Python%E5%A4%84%E7%90%86word%E6%96%87%E6%A1%A3-%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/" rel="alternate" type="text/html" title="Python处理word文档，相关的库" />
-    <published>2024-01-01T14:10:00+08:00</published>
-  
-    <updated>2024-01-01T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Python%E5%A4%84%E7%90%86word%E6%96%87%E6%A1%A3-%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/</id>
-    <content src="http://localhost:4000/posts/Python%E5%A4%84%E7%90%86word%E6%96%87%E6%A1%A3-%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="Python系列" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      当然，Python社区提供了多个库来处理Word文档，主要用于创建、修改和读取Word文件。以下是一些常用的库：
-
-
-  python-docx：用于创建和修改.docx文件。
-  docx2txt：将.docx文件转换成纯文本。
-  pywin32 (仅限Windows)：通过Microsoft Word应用程序接口与Word文档交互。
-
-
-python-docx
-
-python-docx 是一个创建和更新Microsoft Word (.docx)文件的Python库。这里有一个简单的例子，展示如何使用 python-docx 创建一个包含一段文本的Word文档：
-
-from docx import Document
-
-# 创建一个Word文档对象
-doc = Document()
-
-# 向文档添加一个段落
-doc.add_paragraph('Hello, this is a ...
     </summary>
   
 

@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "亚马逊云注册及Bedrock开发教程",
+    "url": "/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/",
+    "categories": "AIGC",
+    "tags": "AIGC",
+    "date": "2024-01-12 14:10:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "BedRock 本地开发环境搭建亚马逊云的Bedrock（https://aws.amazon.com/cn/bedrock/）是一个用于聊天、文本和图像的生成人工智能工具包， 它可以访问 AI21 (Jurassic-2)、Anthropic (Claude)、Stability AI (Stable Diffusion) 和 Amazon (Titan) 等基础模型。Amazon Bed...",
+    "content": "BedRock 本地开发环境搭建亚马逊云的Bedrock（https://aws.amazon.com/cn/bedrock/）是一个用于聊天、文本和图像的生成人工智能工具包， 它可以访问 AI21 (Jurassic-2)、Anthropic (Claude)、Stability AI (Stable Diffusion) 和 Amazon (Titan) 等基础模型。Amazon Bedrock 是一项全托管服务，提供了一系列高性能的基础模型，这些模型来自 AI21 Labs、Anthropic、Cohere、Meta、Stability AI 以及 Amazon 等领先 AI 企业，通过统一的 API 提供服务。此外，Amazon Bedrock 还包括了一整套功能，这些功能旨在构建具备安全性、隐私保护以及负责任的 AI 特色的生成式 AI应用程序。借助 Amazon Bedrock，可以轻松实验和评估各种顶尖基础模型以满足应用场景，还可以通过微调（fine-tuning）和检索增强生成（Retrieval Augmented Generation, RAG）等技术，使用私有数据对这些模型进行定制。如果想要基于BedRock，可以完全使用Amazon提供的云服务，也可以在本地完成开发。本文就重点介绍一下本地环境搭建过程1、Python环境Python环境是必须的，不过多介绍了，相信大家都非常熟悉。我们只需要额外安装两个必备的库：Boto3和Langchain      Boto3 是一个面向 Python 的 Amazon Web Services (AWS) 软件开发工具包（SDK）。它允许 Python 开发者从他们的 Python 脚本中创建、更新和删除 AWS 资源。        LangChain是一个基于大语言模型开发应用程序的框架，它提供了各种易于使用的组件。  亚马逊提供了Boto3的相关文档、API参考、代码示例，感兴趣可以深入学习一下：https://docs.aws.amazon.com/pythonsdk/2、安装 AWS CLI下载AWS CLI：http://aws.amazon.com/cli/大家下载对应系统的AWS CLI即可，安装就是一路下一步打开系统自带Terminal，执行aws help命令 测试是否安装成功3、创建 IAM 用户为了设置 AWS 会话，需要使用 AWS CLI v2 和 SSO 登录并获取访问 AWS 服务所需的凭证。官方教程：https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console想省事的话，可以直接看我这个，我选择的是从控制台创建IAM用户https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/users  在控制台主页上，选择 IAM 服务。  在导航窗格中，选择用户，然后选择 添加用户。  在“指定用户详细信息”页面上的“用户详细信息”下的“用户名”中，输入新用户的名称。这是他们的 AWS 登录名。  选择提供用户访问 – AWS 管理控制台 *可选*这将为新用户生成 AWS 管理控制台登录凭证。  我选择的是我想创建 IAM 用户 并继续执行此过程。下一步将用户添加到组- 如果您要将用户分配到一个或多个已拥有权限策略的组，请选择此选项。IAM 显示您账户中的组列表及其附加的策略。您可以选择一个或多个现有组，或选择“创建组”来创建新组。  在检索密码页面上，获取分配给用户的密码：          选择密码旁边的显示可查看用户的密码，以便您可以手动记录。      选择下载 .csv将用户的登录凭据下载为 .csv 文件，您可以将其保存到安全位置。      4、管理访问密钥回到首页，点击右上角自己的用户名-安全凭证创建访问密钥根据提示往下点击即可创建完成之后回到Terminal，执行aws configure命令，把刚才创建的密钥粘贴进去可以在系统根目录下.aws目录下看到5、测试环境是否搭建成功现在让我们导入所需的模块并使用“amazon.titan”模型创建 Bedrock 的实例：bingo 完美！"
+  },
+  
+  {
     "title": "机器学习周刊05-看见统计看见概率",
     "url": "/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/",
     "categories": "机器学习周刊",
