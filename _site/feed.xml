@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>玩机器学习的章北海</title>
   <subtitle>机器学习算法与Python实战，玩机器学习，但又不止关注机器学习</subtitle>
-  <updated>2024-01-30T10:38:16+08:00</updated>
+  <updated>2025-03-12T19:05:25+08:00</updated>
   <author>
     <name>玩机器学习的章北海</name>
     <uri>http://localhost:4000/</uri>
@@ -13,23 +13,23 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 玩机器学习的章北海 </rights>
+  <rights> © 2025 玩机器学习的章北海 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>亚马逊云注册及Bedrock开发教程</title>
-    <link href="http://localhost:4000/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/" rel="alternate" type="text/html" title="亚马逊云注册及Bedrock开发教程" />
-    <published>2024-01-12T14:10:00+08:00</published>
+    <title>纯手工复刻 Manus 演示功能，顺便做了一个网站，睡后收入 3 美分</title>
+    <link href="http://localhost:4000/posts/%E7%BA%AF%E6%89%8B%E5%B7%A5%E5%A4%8D%E5%88%BBManus%E6%BC%94%E7%A4%BA%E5%8A%9F%E8%83%BD-%E9%A1%BA%E4%BE%BF%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-%E7%9D%A1%E5%90%8E%E6%94%B6%E5%85%A53%E7%BE%8E%E5%88%86/" rel="alternate" type="text/html" title="纯手工复刻 Manus 演示功能，顺便做了一个网站，睡后收入 3 美分" />
+    <published>2025-03-08T14:10:00+08:00</published>
   
-    <updated>2024-01-12T14:10:00+08:00</updated>
+    <updated>2025-03-08T14:10:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/</id>
-    <content src="http://localhost:4000/posts/%E4%BA%9A%E9%A9%AC%E9%80%8A%E4%BA%91%E6%B3%A8%E5%86%8C%E5%8F%8ABedrock%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/" />
+    <id>http://localhost:4000/posts/%E7%BA%AF%E6%89%8B%E5%B7%A5%E5%A4%8D%E5%88%BBManus%E6%BC%94%E7%A4%BA%E5%8A%9F%E8%83%BD-%E9%A1%BA%E4%BE%BF%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-%E7%9D%A1%E5%90%8E%E6%94%B6%E5%85%A53%E7%BE%8E%E5%88%86/</id>
+    <content src="http://localhost:4000/posts/%E7%BA%AF%E6%89%8B%E5%B7%A5%E5%A4%8D%E5%88%BBManus%E6%BC%94%E7%A4%BA%E5%8A%9F%E8%83%BD-%E9%A1%BA%E4%BE%BF%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99-%E7%9D%A1%E5%90%8E%E6%94%B6%E5%85%A53%E7%BE%8E%E5%88%86/" />
     <author>
-      <name>老章mlpy</name>
+      <name>老章 mlpy</name>
     </author>
 
   
@@ -46,13 +46,38 @@
 
 
 
-      BedRock 本地开发环境搭建
+      大家好，我是 Ai 学习的老章
 
-亚马逊云的Bedrock（https://aws.amazon.com/cn/bedrock/）是一个用于聊天、文本和图像的生成人工智能工具包， 它可以访问 AI21 (Jurassic-2)、Anthropic (Claude)、Stability AI (Stable Diffusion) 和 Amazon (Titan) 等基础模型。
+[[Manus背后的华人团队：套壳到极致，就是胜利｜甲子光年]]
 
-Amazon Bedrock 是一项全托管服务，提供了一系列高性能的基础模型，这些模型来自 AI21 Labs、Anthropic、Cohere、Meta、Stability AI 以及 Amazon 等领先 AI 企业，通过统一的 API 提供服务。此外，Amazon Bedrock 还包括了一整套功能，这些功能旨在构建具备安全性、隐私保护以及负责任的 AI 特色的生成式 AI应用程序。
+Manus 太火热了，老章的邀请码还没搞到
 
-借助 Amazo...
+不过倒是看到几个测试，目测一下，还是蛮惊艳的，我昨天复刻了其中一个，火速上线，接入了 Adsense，已实现 3 美分的睡后收入！
+
+
+
+
+先来看一个 Manus 实战演示
+
+
+
+输入指令之后，Manus 就会开始任务分解，自动创建任务清单
+
+然后逐步实现任务清单中的任务
+
+比如数据收集，它会自动打开网页，收集数据到自动创建的临时文件
+
+
+
+整个过程会创建很多临时文件
+
+最终输出用户需要的报告，markdown 格式，可以下载，也可以输出 PDF
+
+
+
+Manus 可以大大简化之前普通 Agent 平台的工作流，中间过程全部自动化，非常智能。大幅降低用户的使用门槛，以后你只管输入需求就行了，不需要自己编排工作流了。
+
+但还是那句话，工具本...
     </summary>
   
 
@@ -60,21 +85,137 @@ Amazon Bedrock 是一项全托管服务，提供了一系列高性能的基础�
 
   
   <entry>
-    <title>机器学习周刊05-看见统计看见概率</title>
-    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/" rel="alternate" type="text/html" title="机器学习周刊05-看见统计看见概率" />
-    <published>2024-01-07T10:10:00+08:00</published>
+    <title>阿里通义千问，汪峰附体了</title>
+    <link href="http://localhost:4000/posts/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE-%E6%B1%AA%E5%B3%B0%E9%99%84%E4%BD%93%E4%BA%86/" rel="alternate" type="text/html" title="阿里通义千问，汪峰附体了" />
+    <published>2025-03-07T14:10:00+08:00</published>
   
-    <updated>2024-01-07T10:10:00+08:00</updated>
+    <updated>2025-03-07T14:10:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/</id>
-    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%91%A8%E5%88%8A05-%E7%9C%8B%E8%A7%81%E7%BB%9F%E8%AE%A1%E7%9C%8B%E8%A7%81%E6%A6%82%E7%8E%87/" />
+    <id>http://localhost:4000/posts/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE-%E6%B1%AA%E5%B3%B0%E9%99%84%E4%BD%93%E4%BA%86/</id>
+    <content src="http://localhost:4000/posts/%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE-%E6%B1%AA%E5%B3%B0%E9%99%84%E4%BD%93%E4%BA%86/" />
     <author>
-      <name>老章mlpy</name>
+      <name>老章 mlpy</name>
     </author>
 
   
     
-    <category term="机器学习周刊" />
+    <category term="AIGC" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      大家好，我是 Ai 学习的老章
+
+阿里怎么汪峰附体了，总是被强头条呢？
+
+大年初一发布通义千问旗舰版模型 Qwen2.5-Max，并称在指令模型版本性能测试中，几乎全面超越 DeepSeek-V3 等其他模型。
+
+结果被 DeepSeek- R1 的整个春节假期的热度盖的死死的，一点波澜没起。
+
+[[250226 实测，阿里最新Qwen2.5-max可否与DeepSeek一战？结果统统被Claude-3.7碾压]]
+
+3 月 6 日，发布全新推理模型 QwQ-32B，可与具备 6710 亿参数的 DeepSeek-R1 媲美，数学能力、代码能力表现与 DeepSeek-R1 相当，远胜于 o1-mini 及相同尺寸的 R1 蒸馏模型。
+
+结果呢被突然爆火的 Manus 盖住了热度
+
+[[20250306 全网都在吹的Manus，我发现他们创始人更牛逼]]
+[[250308 V-纯手工...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>机器学习项目团队都有哪些角色？.md</title>
+    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE%E5%9B%A2%E9%98%9F%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E8%A7%92%E8%89%B2/" rel="alternate" type="text/html" title="机器学习项目团队都有哪些角色？.md" />
+    <published>2025-03-06T14:10:00+08:00</published>
+  
+    <updated>2025-03-06T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE%E5%9B%A2%E9%98%9F%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E8%A7%92%E8%89%B2/</id>
+    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE%E5%9B%A2%E9%98%9F%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B%E8%A7%92%E8%89%B2/" />
+    <author>
+      <name>老章 mlpy</name>
+    </author>
+
+  
+    
+    <category term="AIGC" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+机器学习项目团队角色与职责
+
+管理层角色
+
+1. 产品经理（Product Manager）
+
+
+  背景：负责将机器学习算法从”技术成果”转变为”可落地交付应用的产品”
+  职责：
+    
+      紧跟行业动态，探讨产品创新
+      提供产品解决方案和功能设计
+      进行竞品调研分析
+      对客户宣讲交流，参与招投标文件编写
+      产品迭代管理，提升用户体验
+    
+  
+  产出物：PRD产品需求文档、产品白皮书、项目解决方案
+
+
+2. 项目经理（Project Manager）
+
+
+  背景：在产品开发完成或处于MVP阶段后，负责项目的成功实施和交付
+  职责：
+    
+      制定项目计划和实施方案
+      协调内外资源，跟进执行进度
+      组织项目评审会议及项目例会
+      控制风险，确保项目按时交付
+    
+  
+  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>全网都在吹的 Manus，我发现他们创始人更牛逼</title>
+    <link href="http://localhost:4000/posts/%E5%85%A8%E7%BD%91%E9%83%BD%E5%9C%A8%E5%90%B9%E7%9A%84Manus-%E6%88%91%E5%8F%91%E7%8E%B0%E4%BB%96%E4%BB%AC%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9B%B4%E7%89%9B%E9%80%BC/" rel="alternate" type="text/html" title="全网都在吹的 Manus，我发现他们创始人更牛逼" />
+    <published>2025-03-06T14:10:00+08:00</published>
+  
+    <updated>2025-03-06T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%85%A8%E7%BD%91%E9%83%BD%E5%9C%A8%E5%90%B9%E7%9A%84Manus-%E6%88%91%E5%8F%91%E7%8E%B0%E4%BB%96%E4%BB%AC%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9B%B4%E7%89%9B%E9%80%BC/</id>
+    <content src="http://localhost:4000/posts/%E5%85%A8%E7%BD%91%E9%83%BD%E5%9C%A8%E5%90%B9%E7%9A%84Manus-%E6%88%91%E5%8F%91%E7%8E%B0%E4%BB%96%E4%BB%AC%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9B%B4%E7%89%9B%E9%80%BC/" />
+    <author>
+      <name>老章 mlpy</name>
+    </author>
+
+  
+    
+    <category term="AIGC" />
     
   
 
@@ -88,37 +229,22 @@ Amazon Bedrock 是一项全托管服务，提供了一系列高性能的基础�
 
       
 
-这个网站用可视化的方式讲解概率和统计基础知识，很多内容还是可交互的，非常生动形象。
+大家好，我是 Ai 学习的老章
 
-大家好，欢迎收看第五期机器学习周刊
-
-本期介绍7个内容，涉及Python、概率统计、机器学习、大模型等,目录如下：
+一夜之间，全网都在吹中国团队开发的“全球首款，真正能干活的通用 AI Agent”——Manus
 
 
-  一个离谱的Python库
-  看见概率，看见统计
-  2024机器学习最强文档
-  Gradio
-  顶级程序员如何使用LLM
-  TinyLlama
-  微软宣布利用大型语言模型改进文本嵌入
+  从发布的视频演示来看，Manus 在接到用户指令后可以直接操作电脑完成一系列报告撰写、表格制作等工作，并在最后导出符合用户需求的产品。Manus 是一个通用的 AI Agent，它连接思想和行动：它不仅会思考，还会提供结果。Manus 擅长处理工作和生活中的各种任务，可以在你休息时完成所有事情。
+Manus 体验申请链接：_https://manus.im/invitation
 
 
-1、一个离谱的Python库
+目前需要邀请码，需要排队，官网和市面上有很多它的视频，我就不拾人牙慧了。
 
-地址：https://www.visidata.org/docs/
+老章对这个突然崛起的“中国团队”比较好奇，网络上几乎找不到相关信息。
 
+但是寻着官网和推特上的消息，我还是发现了一些内容。
 
-  pip3 install visidata
-
-
-VisiData是一款免费的开源工具，可让您在计算机终端中快速打开、探索、汇总和分析数据集。VisiData 可处理 CSV 文件、Excel 电子表格、SQL 数据库和许多其他数据源。
-
-界面如下所示：
-
-
-
-甚至还能在命令...
+官网视频中有出现其联合创始人、首席科学家 Yichao ‘Pe...
     </summary>
   
 
@@ -126,65 +252,21 @@ VisiData是一款免费的开源工具，可让您在计算机终端中快速打
 
   
   <entry>
-    <title>【翻译】Redis之父最新文章《2024年初的LLMs与编程》</title>
-    <link href="http://localhost:4000/posts/2024%E5%B9%B4%E5%88%9D%E7%9A%84LLMs%E4%B8%8E%E7%BC%96%E7%A8%8B/" rel="alternate" type="text/html" title="【翻译】Redis之父最新文章《2024年初的LLMs与编程》" />
-    <published>2024-01-03T14:10:00+08:00</published>
+    <title>机器学习面试准备路线图.md</title>
+    <link href="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87%E8%B7%AF%E7%BA%BF%E5%9B%BE/" rel="alternate" type="text/html" title="机器学习面试准备路线图.md" />
+    <published>2025-03-05T14:10:00+08:00</published>
   
-    <updated>2024-01-03T14:10:00+08:00</updated>
+    <updated>2025-03-05T14:10:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/2024%E5%B9%B4%E5%88%9D%E7%9A%84LLMs%E4%B8%8E%E7%BC%96%E7%A8%8B/</id>
-    <content src="http://localhost:4000/posts/2024%E5%B9%B4%E5%88%9D%E7%9A%84LLMs%E4%B8%8E%E7%BC%96%E7%A8%8B/" />
+    <id>http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87%E8%B7%AF%E7%BA%BF%E5%9B%BE/</id>
+    <content src="http://localhost:4000/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87%E8%B7%AF%E7%BA%BF%E5%9B%BE/" />
     <author>
-      <name>老章mlpy</name>
+      <name>老章 mlpy</name>
     </author>
 
   
     
-    <category term="翻译" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      英文原文：http://antirez.com/news/140
-
-Redis 之父的最新文章，非常详细地分享他在工作中使用 LLM 编程的体验，我们可以通过此文一窥超级大佬是如何使用大模型的。
-
-这篇文章很我让ChatGPT提取了摘要：
-
-
-  在2023年，人工智能尤其是可以在设备上本地使用的LLMs取得了显著的进步。作者广泛利用这项技术来加速他的编程能力。
-  起初，作者主要使用LLMs来处理文档和避免在编程中的无聊/不感兴趣的部分。然而，随着时间的推移，他学会了何时使用LLMs最有帮助，以及何时它们可能会减慢他的速度。
-  LLMs在推理和插值方面的能力有限，它们不能超越它们被训练的内容。虽然它们不能替代人类程序员，但如果适当使用，它们可以是有用的辅助工具。
-  作者提供了几个例子，展示了LLMs如何帮助他更快地编写代码，例如在框架之间切换、用一种不熟悉的语言编程，或分析他不...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>机器学习周刊04-动手实战人工智能</title>
-    <link href="http://localhost:4000/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="alternate" type="text/html" title="机器学习周刊04-动手实战人工智能" />
-    <published>2024-01-01T14:10:00+08:00</published>
-  
-    <updated>2024-01-01T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</id>
-    <content src="http://localhost:4000/posts/%E5%8A%A8%E6%89%8B%E5%AE%9E%E6%88%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
-    
-    <category term="机器学习周刊" />
+    <category term="AIGC" />
     
   
 
@@ -198,91 +280,37 @@ Redis 之父的最新文章，非常详细地分享他在工作中使用 LLM 编
 
       
 
-LLM开发者必读论文：检索增强（RAG）生成技术综述！
-
-目录：
 
 
-  1、动手实战人工智能 Hands-on Al
-  2、huggingface的NLP、深度强化学习、语音课
-  3、Awesome Jupyter
-  4、计算机科学热门论文
-  5、LLM开发者必读论文:检索增强 (RAG) 生成技术综述
-  6、Apple 公布了多模态大型语言模型 Ferret
-  7、免费的基于ChatGPT API的安卓端语音助手
-  8、每日数学
-  9、WhisperLive:接近实时的 Whisper 实现
-  10、Unsloth：大模型训练速度和效率加速工具
-  11、最后推荐三个AI工具
+准备阶段（1-2个月）
+
+理论基础复习
 
 
-1、动手实战人工智能 Hands-on AI
-
-地址：https://ai.huhuhang.com/intro
-
-这个《动手实战人工智能 Hands-on AI》写的相当不错，作...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python处理电子表格，4个非常流行且功能强大的库</title>
-    <link href="http://localhost:4000/posts/Python%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/" rel="alternate" type="text/html" title="Python处理电子表格，4个非常流行且功能强大的库" />
-    <published>2024-01-01T14:10:00+08:00</published>
-  
-    <updated>2024-01-01T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Python%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/</id>
-    <content src="http://localhost:4000/posts/Python%E5%A4%84%E7%90%86%E8%A1%A8%E6%A0%BC%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BA%93/" />
-    <author>
-      <name>老章mlpy</name>
-    </author>
-
-  
+  数学基础：线性代数、概率统计、微积分
+  机器学习算法：
     
-    <category term="Python系列" />
+      监督学习：线性回归、逻辑回归、决策树、随机森林、SVM、KNN
+      无监督学习：K-means、层次聚类、PCA、t-SNE
+      集成方法：Bagging、Boosting、Stacking
+    
+  
+  深度学习基础：
+    
+      神经网络原理
+      反向传播算法
+      优化器（SGD、Adam、RMSprop）
+      常见架构（CNN、RNN、LSTM、Transformer）
     
   
 
-  
-    <summary>
-      
+
+编程技能提升
 
 
-
-
-
-      在Python中处理表格数据，有几个非常流行且功能强大的库。以下是一些最常用的库及其示例代码：
-
-1. Pandas
-
-Pandas是一个开放源代码的、BSD许可的库，为Python编程语言提供高性能、易于使用的数据结构和数据分析工具。
-
-安装Pandas
-
-pip install pandas
-
-
-示例代码：读取CSV文件
-
-import pandas as pd
-
-# 读取CSV文件
-df = pd.read_csv('pokemon.csv')
-
-# 显示前五行数据
-print(df.head())
-
-# 计算某列的平均值
-print("Average of column:", df['Speed'].mean())
-
-# 数据筛选
-filtered_df = df[df['Speed'] &amp;gt; 10]
-
-# 将更改后的DataFrame保存到新的CSV文件
-filtere...
+  Python编程：熟练掌握数据结构、算法复杂度分析
+  框架应用：Scikit-learn、TensorFlow/PyTorch、Keras
+  数据处理：Pandas、NumPy...
     </summary>
   
 
